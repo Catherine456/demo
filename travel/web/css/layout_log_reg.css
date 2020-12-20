@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+.content {
+	margin: auto;
+	border: 2px #b44813 solid;
+	border-radius: 10px;
+	margin-top: 150px;
+	width: 400px;
+}
+
+.title {
+	background: #b44813;
+	margin: 0px;
+	border-radius: 7px 7px 0px 0px;
+	color: white;
+	padding: 30px;
+}
+
+.title h4 {
+	margin: 0px;
+
+font-size: 25px;
+}
+
+.form {
+	padding: 10px;
+
+background: rgba(64, 35, 5, 0.5);
+}
+
+.form input
+{width: 370px;
+
+height: 35px;
+
+box-sizing: border-box;
+
+border: 1px solid #ccc;
+
+padding: 20px;
+
+border-radius: 3px;
+
+	
+}
+
+.buttons
+{
+	margin-top: 20px;
+}
+
+.link
+{
+	margin: 10px;
+    text-align: right;
+color: white;
+}
+
+.link a
+{
+	text-decoration: none;
+
+color: #eaae69;
+}
+
+input, select {
+	height: 20px;
+	width: 180px;
+	margin: 5px;
+}
+
+
+tr {
+	font-size: 14px;
+}
+
+tr>td{
+	width:100px;
+}
+
+.radio {
+    display: inline;
+    width: 20px;
+    height: 8px;
+}
+.submit {
+	height: 25px;
+}
+
+.button {
+	width:70px;
+	height:30px;
+}
+

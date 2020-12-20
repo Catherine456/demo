@@ -1,0 +1,264 @@
+﻿/*! author: Keyon Y, lenglu */
+@charset "UTF-8";
+.main {
+  margin-bottom: 58px;
+  margin-top: 29px;
+  background: #fff;
+  border-radius: 4px; }
+  .main .main_box {
+    position: relative;
+    padding-bottom: 24px; }
+  .main .title_box {
+    height: 76px;
+    line-height: 76px;
+    background-color: #F65B61;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; }
+    .main .title_box h4 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+      text-align: center; }
+  .main .schedule {
+    width: 920px;
+    margin: 60px auto 54px auto; }
+    .main .schedule li {
+      width: 150px;
+      margin: 0 1px;
+      padding-top: 16px;
+      text-align: center;
+      border-top: 1px dashed #E42129;
+      position: relative;
+      font-size: 12px;
+      color: #666; }
+      .main .schedule li .icon-time-node {
+        left: 50%;
+        margin-left: -10px; }
+      .main .schedule li .date {
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        margin-left: -37px;
+        font-size: 10px; }
+    .main .schedule .active {
+      border-top: 1px solid #E42129;
+      width: 153px;
+      margin: 0; }
+      .main .schedule .activebefore {
+        background-color: #E42129; }
+  .main .main_left, .main .main_right {
+    box-sizing: border-box; }
+  .main .main_left {
+    width: 604px;
+    padding-left: 46px; }
+    .main .main_left .red {
+      color: #E42129;
+      font-style: normal;
+      font-weight: 600;
+      margin-right: 4px;
+      position: relative;
+      top: 2px; }
+    .main .main_left .tip {
+      display: inline-block;
+      margin-top: 10px;
+      color: #E42129; }
+    .main .main_left .hide {
+      display: none; }
+    .main .main_left h4 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 40px; }
+      .main .main_left h4 a {
+        color: #0A6DD3;
+        font-weight: 400; }
+    .main .main_left .layui-form .layui-form-item {
+      margin-bottom: 30px; }
+    .main .main_left .layui-form .layui-form-label {
+      width: 120px;
+      padding: 9px 3px; }
+    .main .main_left .layui-form .layui-input-block {
+      margin-left: 126px; }
+      .main .main_left .layui-form .layui-input-block select[name="worksClass"] + .layui-form-select {
+        float: left;
+        margin-right: 12px; }
+      .main .main_left .layui-form .layui-input-block .layui-form-switch {
+        width: 154px;
+        height: 38px;
+        line-height: 36px;
+        margin-top: 0;
+        padding: 0;
+        border-radius: 2px; }
+        .main .main_left .layui-form .layui-input-block .layui-form-switch em {
+          right: 0;
+          width: 50%;
+          line-height: 38px;
+          color: #fff !important;
+          background-color: #00A0EA; }
+        .main .main_left .layui-form .layui-input-block .layui-form-switch i {
+          width: 0;
+          height: 0;
+          left: 0;
+          top: 0; }
+        .main .main_left .layui-form .layui-input-block .layui-form-switch i:after {
+          display: inline-block;
+          content: '\6709';
+          width: 76px;
+          line-height: 38px;
+          font-style: normal;
+          text-align: center; }
+      .main .main_left .layui-form .layui-input-block .layui-form-onswitch {
+        border-color: darkgray;
+        background-color: #fff; }
+        .main .main_left .layui-form .layui-input-block .layui-form-onswitch em {
+          left: 0; }
+        .main .main_left .layui-form .layui-input-block .layui-form-onswitch i {
+          margin-left: 76px;
+          right: 0; }
+        .main .main_left .layui-form .layui-input-block .layui-form-onswitch i:after {
+          content: '\65E0';
+          right: 0; }
+    .main .main_left .layui-form .margin_left_reset {
+      margin-left: 46px; }
+    .main .main_left .layui-form .worksClass .layui-form-select {
+      width: 150px; }
+    .main .main_left .layui-form .title .layui-input {
+      width: 364px; }
+    .main .main_left .layui-form .content textarea {
+      width: 364px;
+      height: 200px;
+      resize: none; }
+    .main .main_left .layui-form .date_zone .layui-form-select {
+      float: left;
+      width: 154px;
+      margin-right: 12px; }
+    .main .main_left .layui-form .date_zone .dead_date {
+      display: inline-block;
+      height: 38px;
+      line-height: 38px;
+      margin-left: 10px; }
+      .main .main_left .layui-form .date_zone .dead_date b {
+        margin: auto 4px; }
+    .main .main_left .layui-form .date_zone .hide {
+      display: none; }
+    .main .main_left .layui-form .budget .layui-input {
+      width: 72px;
+      border-top: none;
+      border-left: none;
+      border-right: none; }
+      .main .main_left .layui-form .budget .layui-input + span {
+        margin-right: 20px;
+        line-height: 38px; }
+    .main .main_left .layui-form .designEndTime .layui-input-block {
+      position: relative; }
+      .main .main_left .layui-form .designEndTime .layui-input-block .icon-datepicker {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: url(/assets/images/spirits-order.png) no-repeat 0 0;
+        position: absolute;
+        top: 12px;
+        left: 130px; }
+    .main .main_left .layui-form .designEndTime .layui-input {
+      width: 152px; }
+    .main .main_left .layui-form .limit_box .layui-form-item {
+      margin-top: 15px;
+      margin-bottom: 15px; }
+    .main .main_left .layui-form .limit_box .layui-form-select {
+      width: 152px; }
+    .main .main_left .layui-form .register_box {
+      margin-top: 12px;
+      margin-bottom: 48px; }
+      .main .main_left .layui-form .register_box .layui-form-item {
+        margin-bottom: 15px; }
+      .main .main_left .layui-form .register_box .user_old_num {
+        position: relative;
+        top: 3px;
+        left: -18px; }
+    .main .main_left .layui-form .registered_user {
+      margin-top: 2px; }
+      .main .main_left .layui-form .registered_user .layui-form-item {
+        margin-bottom: 5px; }
+      .main .main_left .layui-form .registered_user .hide {
+        display: none; }
+      .main .main_left .layui-form .registered_user .mobile {
+        margin-bottom: 15px; }
+    .main .main_left .layui-form .guest_user .layui-form-label {
+      width: 120px; }
+    .main .main_left .layui-form .guest_user .layui-input-block {
+      margin-left: 120px; }
+    .main .main_left .layui-form .mobile .layui-input, .main .main_left .layui-form .password .layui-input {
+      width: 254px; }
+    .main .main_left .layui-form .validCode .layui-input {
+      width: 144px;
+      margin-right: 8px; }
+    .main .main_left .layui-form .validCode .get_code, .main .main_left .layui-form .validCode .standby {
+      display: inline-block;
+      width: 102px;
+      height: 38px;
+      line-height: 38px;
+      text-align: center;
+      color: #fff;
+      background-color: #00A0EA;
+      border-radius: 2px;
+      cursor: pointer; }
+    .main .main_left .layui-form .validCode .standby {
+      background-color: #C1C1C1; }
+    .main .main_left .layui-form .validCode .hide {
+      display: none; }
+    .main .main_left .layui-form .protocol {
+      margin-bottom: 24px; }
+      .main .main_left .layui-form .protocol .layui-input-block {
+        margin-left: 0; }
+      .main .main_left .layui-form .protocol span {
+        margin-left: 10px; }
+      .main .main_left .layui-form .protocol .layui-form-checkbox[lay-skin=primary] {
+        margin-top: -2px; }
+    .main .main_left .layui-form .layui-btn {
+      margin-left: 88px;
+      color: #fff;
+      background-color: #E42129; }
+    .main .main_left .sub-form-disabled {
+      cursor: default !important; }
+  .main .v_line {
+    position: absolute;
+    width: 2px;
+    height: 97%;
+    margin-left: 604px;
+    margin-bottom: 38px;
+    background-color: #DEDEDE; }
+  .main .main_right {
+    width: 596px;
+    padding-left: 56px;
+    padding-right: 36px;
+    font-size: 14px;
+    color: #656565; }
+    .main .main_right h6 {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #666;
+      font-weight: 600; }
+    .main .main_right .title {
+      color: #212121;
+      margin-bottom: 46px; }
+    .main .main_right p {
+      line-height: 30px; }
+    .main .main_right .qq_kefu iframe {
+      position: relative;
+      top: 6px; }
+
+.modal_likeOff {
+  display: inline-block;
+  width: 76px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #dcdcdc;
+  text-align: center;
+  cursor: pointer; }
+
+.modal_linkOff.active {
+  border-color: #00a0e9;
+  color: #fff; }
+
+.modal_likeOff input[type="radio"] {
+  display: none !important; }

@@ -1,0 +1,36 @@
+.content
+{}
+.picture
+{
+display: inline-block;
+
+margin: 10px;
+
+text-align: center;
+
+background: #f1eaea;
+
+padding: 10px;
+}
+
+.picture a
+{
+	
+	text-decoration: none;
+}
+
+
+.picture button
+{
+	margin-top: 10px;
+
+border: 0px;
+
+padding: 2px 10px;
+
+color: #e35135;
+
+background: white;
+
+border-radius: 10px;
+}

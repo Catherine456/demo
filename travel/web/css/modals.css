@@ -1,0 +1,846 @@
+﻿/*! author: Keyon Y, lenglu */
+@charset "UTF-8";
+/*
+ *  覆盖layui样式
+ */
+.modal_bg .layui-form-select .layui-input {
+  padding: 0 25px 0 5px; }
+
+.modal_bg .layui-form-select {
+  margin-right: 5px; }
+
+.modal_bg .layui-form-item {
+  font-size: 12px;
+  text-align: left; }
+
+.modal_bg .layui-form-item .layui-form-checkbox[lay-skin=primary] {
+  margin-top: 0;
+  margin-right: 5px; }
+
+/* 覆盖layui样式 END */
+/**
+ * 弹框模态框 通用样式
+ */
+.modal_bg {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.modal_bg .h-30 {
+  height: 20px;
+  min-height: initial; }
+
+.modal_bg .p-0 {
+  padding: 0; }
+
+.modal_bg .m-0 {
+  margin: 0; }
+
+.modal_bg .m-lr-5 {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.modal_bg .m-l-15 {
+  margin-left: 15px; }
+
+.modal_bg .m-l-30 {
+  margin-left: 30px; }
+
+.modal_bg .m-l-40 {
+  margin-left: 40px; }
+
+.modal_bg .m-t-10 {
+  margin-top: 10px; }
+
+.modal_bg .m-t-15 {
+  margin-top: 15px; }
+
+.modal_bg .m-r-10 {
+  margin-right: 10px; }
+
+.modal_bg .m-r-30 {
+  margin-right: 30px; }
+
+.modal_bg .m-b-15 {
+  margin-bottom: 15px; }
+
+.modal_bg .m-b-10 {
+  margin-bottom: 10px; }
+
+.modal_bg .p-l-80 {
+  padding-left: 80px; }
+
+.modal_bg .p-t-30 {
+  padding-top: 30px; }
+
+.modal_bg .p-lr-0 {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.modal_bg .p-l-15 {
+  padding-left: 15px; }
+
+.modal_bg .p-r-0 {
+  padding-right: 0px; }
+
+.modal_bg .p-lr-40 {
+  padding-left: 40px;
+  padding-right: 38px; }
+
+.modal_bg .p-lr-50 {
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.modal_bg .l-h-24 {
+  line-height: 24px; }
+
+.modal_bg .font_fs12 {
+  font-size: 12px; }
+
+.modal_bg .font_tal {
+  text-align: left; }
+
+.modal_bg .font_tac {
+  text-align: center; }
+
+.modal_bg .font_fcred {
+  color: #e62129; }
+
+.modal_bg .font_fcef980e {
+  color: #ef980e; }
+
+.modal_bg .font_fcblue {
+  color: #00a0e9; }
+
+.modal_bg .pos-r {
+  position: relative; }
+
+.modal_bg .pos-r-2 {
+  position: relative;
+  top: 2px; }
+
+.modal_bg .t-10 {
+  top: 10px; }
+
+.modal_contain {
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 448px;
+  height: 256px;
+  margin: -128px 0 0 -224px;
+  background-color: #fff;
+  border-radius: 3px; }
+  .modal_contain.w288h210 {
+    width: 288px;
+    height: 210px;
+    margin: -105px 0 0 -144px; }
+  .modal_contain.w450h320 {
+    width: 450px;
+    height: 320px;
+    margin: -225px 0 0 -160px; }
+  .modal_contain.w450h340 {
+    width: 450px;
+    height: 340px;
+    margin: -225px 0 0 -170px; }
+  .modal_contain.w450h380 {
+    width: 450px;
+    height: 380px;
+    margin: -225px 0 0 -190px; }
+  .modal_contain.w550h410 {
+    width: 550px;
+    height: 410px;
+    margin: -275px 0 0 -205px; }
+
+.modal_box {
+  position: relative;
+  height: 100%; }
+
+.modal_title {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #E6252E; }
+  .modal_title > span {
+    font-size: 16px;
+    color: #fff; }
+  .modal_title > .close {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 22px;
+    height: 22px;
+    background: url("/assets/images/spirits.png") no-repeat 2px -291px;
+    cursor: pointer; }
+  .modal_title > .help {
+    display: block;
+    position: absolute;
+    right: 56px;
+    top: 10px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    color: #fff;
+    background: url("/assets/images/spirits.png") no-repeat 2px -546px; }
+
+.modal_content {
+  padding-top: 42px;
+  padding-right: 12px;
+  vertical-align: middle; }
+  .modal_content.p-t-52 {
+    padding-top: 52px; }
+
+.modal_icon {
+  margin-left: 68px;
+  padding-top: 8px; }
+  .modal_icon img {
+    width: 29px;
+    height: 26px; }
+    .modal_icon img.mini {
+      width: 24px;
+      height: 21px; }
+
+.modal_content_box {
+  font-size: 14px; }
+  .modal_content_box .font_fwb {
+    font-weight: bold; }
+    .modal_content_box .font_fwb span {
+      color: #e62129; }
+  .modal_content_box .font_fcred {
+    color: #e62129; }
+  .modal_content_box .targetName {
+    margin: 0 3px; }
+
+.modal_big {
+  font-size: 14px;
+  font-weight: bold; }
+
+.title_sub {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  font-size: 12px; }
+
+.modal_note {
+  line-height: 24px;
+  padding: 0px 62px;
+  color: #666;
+  font-size: 12px; }
+
+.modal_line {
+  line-height: 24px; }
+  .modal_line .modal_lineToright {
+    float: left;
+    width: 100px;
+    text-align: right; }
+  .modal_line .modal_lineToleft {
+    margin-left: 110px; }
+
+.modal_btnBox {
+  position: absolute;
+  bottom: 26px;
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  text-align: center; }
+  .modal_btnBox button, .modal_btnBox a {
+    box-sizing: border-box;
+    width: 90px;
+    height: 28px;
+    line-height: 26px;
+    margin: 0 13px;
+    padding: 0;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer; }
+  .modal_btnBox .modal_ok {
+    color: #fff;
+    border-color: #eea236;
+    background-color: #E6212A; }
+  .modal_btnBox .modal_cancle {
+    color: #666;
+    border: 1px solid #BFBFBF;
+    background-color: #fff; }
+  .modal_btnBox .modal_no, .modal_btnBox .modal_back {
+    border: 1px solid #BFBFBF;
+    background-color: #fff;
+    color: #333; }
+  .modal_btnBox a.modal_cancle, .modal_btnBox a.modal_go {
+    width: initial;
+    border: none;
+    color: #00a0e9;
+    font-size: 12px; }
+
+.theme_blue .modal_title {
+  background-color: #00a0e9; }
+
+.theme_blue .modal_ok {
+  background-color: #00a0e9; }
+
+#modal_chat_hint .modal_content, #modal_chat_warning .modal_content, #modal_chat_pushBlack .modal_content {
+  padding: 52px 0 0; }
+
+#modal_chat_hint .content_title, #modal_chat_warning .content_title, #modal_chat_pushBlack .content_title {
+  text-align: center; }
+
+#modal_chat_hint .modal_icon, #modal_chat_hint .modal_content_box, #modal_chat_warning .modal_icon, #modal_chat_warning .modal_content_box, #modal_chat_pushBlack .modal_icon, #modal_chat_pushBlack .modal_content_box {
+  display: inline-block; }
+
+#modal_chat_hint .modal_icon.w16h16, #modal_chat_warning .modal_icon.w16h16, #modal_chat_pushBlack .modal_icon.w16h16 {
+  padding-top: 0;
+  margin: 0 10px 0 0; }
+  #modal_chat_hint .modal_icon.w16h16 img, #modal_chat_warning .modal_icon.w16h16 img, #modal_chat_pushBlack .modal_icon.w16h16 img {
+    width: 20px;
+    height: 20px; }
+
+.modal_likeOff {
+  display: inline-block;
+  width: 75px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #dcdcdc;
+  text-align: center;
+  cursor: pointer; }
+  .modal_likeOff:last-child {
+    margin-left: -1px; }
+  .modal_likeOff.active {
+    background-color: #00a0e9;
+    color: #fff; }
+
+.modal_input_120 {
+  width: 120px;
+  height: 36px;
+  line-height: 36px; }
+
+/* 弹框模态框 通用样式 End */
+/*
+ * （取消需求）
+ */
+/*
+ *  找他设计
+ */
+#modal_chooseDesigner > .modal_contain {
+  width: 736px;
+  height: 696px;
+  margin-left: -368px;
+  margin-top: -348px; }
+
+#modal_chooseDesigner .modal_box .layui-input:focus, #modal_chooseDesigner .modal_box .layui-textarea:focus {
+  border-color: #00A0EA !important; }
+
+#modal_chooseDesigner .modal_box .layui-form-radio i:hover {
+  color: #00A0EA; }
+
+#modal_chooseDesigner .modal_box .layui-form-radioed i {
+  color: #00A0EA; }
+
+#modal_chooseDesigner .modal_box .layui-form-checkbox[lay-skin=primary]:hover i {
+  border-color: #00A0EA; }
+
+#modal_chooseDesigner .modal_box .layui-form-checked[lay-skin=primary] i {
+  color: #00A0EA;
+  border-color: #00A0EA;
+  background-color: #fff; }
+
+#modal_chooseDesigner .modal_box .layui-form-switch {
+  width: 154px;
+  height: 38px;
+  line-height: 36px;
+  margin-top: 0;
+  padding: 0;
+  border-radius: 2px; }
+  #modal_chooseDesigner .modal_box .layui-form-switch em {
+    right: 0;
+    width: 50%;
+    line-height: 38px;
+    color: #fff !important;
+    background-color: #00A0EA; }
+  #modal_chooseDesigner .modal_box .layui-form-switch i {
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0; }
+  #modal_chooseDesigner .modal_box .layui-form-switch i:after {
+    display: inline-block;
+    content: '\6709';
+    width: 76px;
+    line-height: 38px;
+    font-style: normal;
+    text-align: center; }
+
+#modal_chooseDesigner .modal_box .layui-form-onswitch {
+  border-color: darkgray;
+  background-color: #fff; }
+  #modal_chooseDesigner .modal_box .layui-form-onswitch em {
+    left: 0; }
+  #modal_chooseDesigner .modal_box .layui-form-onswitch i {
+    margin-left: 76px;
+    right: 0; }
+  #modal_chooseDesigner .modal_box .layui-form-onswitch i:after {
+    content: '\65E0';
+    right: 0; }
+
+#modal_chooseDesigner .modal_box .layui-form-checkbox[lay-skin=primary] {
+  margin-top: -2px; }
+
+#modal_chooseDesigner .modal_box .protocol span {
+  vertical-align: bottom; }
+
+#modal_chooseDesigner .modal_box .protocol a {
+  color: #00a0ea; }
+
+#modal_chooseDesigner .modal_box .modal_title {
+  margin-bottom: 42px; }
+
+#modal_chooseDesigner .modal_box .layui-form-item {
+  position: relative;
+  width: 486px;
+  margin: 0 auto 15px auto; }
+  #modal_chooseDesigner .modal_box .layui-form-item.m-b-30 {
+    margin-bottom: 30px; }
+  #modal_chooseDesigner .modal_box .layui-form-item .layui-form-label {
+    width: 120px;
+    padding: 9px 3px; }
+    #modal_chooseDesigner .modal_box .layui-form-item .layui-form-label .red {
+      color: #E42129;
+      font-style: normal;
+      font-weight: 600;
+      margin-right: 4px;
+      position: relative;
+      top: 2px; }
+  #modal_chooseDesigner .modal_box .layui-form-item .layui-input-block {
+    margin-left: 126px; }
+  #modal_chooseDesigner .modal_box .layui-form-item .layui-input[name="budget"] {
+    width: 72px;
+    border-top: none;
+    border-left: none;
+    border-right: none; }
+    #modal_chooseDesigner .modal_box .layui-form-item .layui-input[name="budget"] + span {
+      margin-right: 20px; }
+  #modal_chooseDesigner .modal_box .layui-form-item .layui-textarea[name="content"] {
+    height: 126px;
+    resize: none; }
+  #modal_chooseDesigner .modal_box .layui-form-item .tip {
+    position: absolute;
+    bottom: -22px;
+    left: 10px;
+    display: inline-block;
+    margin-top: 0px;
+    color: #E42129; }
+    #modal_chooseDesigner .modal_box .layui-form-item .tip.w-150 {
+      width: 150px; }
+    #modal_chooseDesigner .modal_box .layui-form-item .tip.b-10 {
+      bottom: 10px;
+      top: initial; }
+    #modal_chooseDesigner .modal_box .layui-form-item .tip.r-50 {
+      right: 50px;
+      left: initial; }
+  #modal_chooseDesigner .modal_box .layui-form-item .hide {
+    display: none; }
+
+#modal_chooseDesigner .modal_box .modal_content .content_title .title_box {
+  margin-left: 0; }
+
+#modal_chooseDesigner .modal_box .modal_btnBox {
+  box-sizing: border-box;
+  padding-left: 206px;
+  bottom: 56px; }
+  #modal_chooseDesigner .modal_box .modal_btnBox a {
+    margin-left: 12px;
+    color: #0C6FD6;
+    text-decoration: underline; }
+
+#modal_chooseDesigner .modal_likeOff input {
+  display: none; }
+
+/*
+ * 立即报名弹框
+ */
+#modal_enroll .layui-form-checkbox[lay-skin="primary"] {
+  top: -2px; }
+
+.no_price .modal_content, .with_price .modal_content {
+  padding-top: 32px;
+  padding-right: 0; }
+
+.no_price .modal_title_box, .with_price .modal_title_box {
+  margin-left: auto;
+  padding: 0 42px; }
+
+.no_price .modal_big, .with_price .modal_big {
+  margin-bottom: 22px; }
+
+.no_price .modal_note, .with_price .modal_note {
+  padding: 0 42px;
+  line-height: 20px; }
+  .no_price .modal_note a, .with_price .modal_note a {
+    color: #E6212B;
+    text-decoration: underline; }
+  .no_price .modal_note p, .with_price .modal_note p {
+    margin: 18px auto 22px auto;
+    color: #222; }
+
+.no_price .layui-input-block a, .with_price .layui-input-block a {
+  color: #00a0ea; }
+
+.no_price .layui-input-block, .with_price .layui-input-block {
+  margin-left: 42px; }
+
+.no_price .layui-form-checkbox[lay-skin="primary"], .with_price .layui-form-checkbox[lay-skin="primary"] {
+  position: relative;
+  top: -6px;
+  margin-right: 4px; }
+
+.no_price {
+  width: 448px;
+  height: 354px;
+  margin-left: -224px;
+  margin-top: -177px; }
+
+.with_price {
+  width: 448px;
+  height: 396px;
+  margin-left: -224px;
+  margin-top: -198px; }
+  .with_price .layui-form-label {
+    padding: 0 0 0 116px; }
+  .with_price .money .layui-input-block {
+    min-height: 0; }
+    .with_price .money .layui-input-block span {
+      color: #E42129; }
+  .with_price input[name="amount"] {
+    box-sizing: border-box;
+    width: 58px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 4px;
+    padding: 2px 4px;
+    font-size: 12px; }
+
+/*
+ * 需求详情（举报）
+ */
+#modal_report .layui-form-checkbox[lay-skin=primary] {
+  line-height: 12px;
+  margin-top: 8px; }
+  #modal_report .layui-form-checkbox[lay-skin=primary] span {
+    font-size: 12px; }
+  #modal_report .layui-form-checkbox[lay-skin=primary] i {
+    width: 12px;
+    height: 12px;
+    top: 2px; }
+
+#modal_report .modal_contain {
+  width: 528px;
+  height: auto;
+  margin-left: -264px;
+  margin-top: -210px; }
+
+#modal_report .modal_content {
+  padding-left: 50px; }
+
+#modal_report .modal_title_box {
+  margin-bottom: 20px; }
+
+#modal_report .modal_note {
+  padding: 0;
+  margin-left: 46px; }
+
+#modal_report .layui-input-block {
+  margin-left: 0; }
+
+#modal_report .layui-form-checkbox {
+  display: block;
+  max-width: 160px; }
+  #modal_report .layui-form-checkbox i {
+    float: left; }
+  #modal_report .layui-form-checkbox span {
+    float: none; }
+
+#modal_report textarea {
+  width: 322px;
+  height: 60px;
+  min-height: 60px;
+  resize: none; }
+
+#modal_report .layui-form-checkbox:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+#modal_report .tease {
+  margin-top: -6px;
+  margin-bottom: 4px; }
+  #modal_report .tease span {
+    color: #2179D6;
+    text-decoration: underline;
+    cursor: pointer; }
+
+#modal_report .textarea_box {
+  margin-bottom: 26px; }
+
+#modal_report .modal_btnBox {
+  position: static;
+  padding-bottom: 34px; }
+
+#modal_report .hide_textarea {
+  margin-bottom: 26px; }
+  #modal_report .hide_textarea .textarea_box {
+    display: none; }
+
+#modal_overtime .modal_contain, #modal_overtime_order .modal_contain {
+  width: 450px;
+  min-height: 330px;
+  margin-left: -165px;
+  margin-top: -225px; }
+
+#modal_overtime .modal_content, #modal_overtime_order .modal_content {
+  padding: 5px 50px 0 50px; }
+
+#modal_overtime .data_title, #modal_overtime_order .data_title {
+  margin-top: 15px; }
+
+#modal_overtime .modal_title_box, #modal_overtime_order .modal_title_box {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+#modal_overtime .modal_note, #modal_overtime_order .modal_note {
+  padding: 0 0px; }
+
+#modal_overtime .layui-form-label, #modal_overtime_order .layui-form-label {
+  width: auto;
+  padding: 9px 0; }
+
+#modal_overtime .layui-input-block, #modal_overtime_order .layui-input-block {
+  margin-left: 100px; }
+
+#modal_overtime .layui-form-select, #modal_overtime_order .layui-form-select {
+  display: inline-block;
+  width: 76px; }
+
+#modal_abandonReq .modal_icon, #modal_deleteRequest .modal_icon {
+  margin-right: 12px; }
+
+#modal_abandonReq .title_sub, #modal_deleteRequest .title_sub {
+  margin-top: 8px; }
+
+#modal_abandonReq .modal_note, #modal_deleteRequest .modal_note {
+  line-height: 24px; }
+
+#modal_abandonEnroll .modal_content {
+  padding-top: 30px; }
+
+#modal_abandonEnroll .modal_icon {
+  margin-right: 12px; }
+
+#modal_abandonEnroll .title_sub {
+  margin-top: 6px;
+  font-weight: normal; }
+
+#modal_abandonEnroll .modal_title_box {
+  margin-bottom: 10px; }
+
+#modal_abandonEnroll .modal_note {
+  line-height: 20px;
+  padding: 0 40px 0 62px; }
+
+#modal_giveUpOrder .modal_note, #modal_refuseReq .modal_note {
+  padding: 0; }
+
+#modal_giveUpOrder .data_title, #modal_refuseReq .data_title {
+  margin-top: 10px;
+  padding-left: 40px; }
+
+#modal_stopOrder .modal_note, #modal_acceptance .modal_note, #modal_acceptance_unsatisfactory .modal_note, #modal_refund .modal_note {
+  padding: 0; }
+
+#modal_stopOrder .data_title, #modal_acceptance .data_title, #modal_acceptance_unsatisfactory .data_title, #modal_refund .data_title {
+  margin-top: 10px; }
+
+#modal_stopOrder .refundRate, #modal_acceptance .refundRate, #modal_acceptance_unsatisfactory .refundRate, #modal_refund .refundRate {
+  width: 50px;
+  margin-right: 5px; }
+
+#modal_acceptance .payPassword {
+  width: 100px;
+  padding: 0 5px; }
+
+#modal_cdSendSuccess .modal_icon img {
+  width: 46px;
+  height: 46px; }
+
+#modal_cdSendSuccess .modal_note {
+  padding: 0 60px; }
+  #modal_cdSendSuccess .modal_note img {
+    vertical-align: middle; }
+
+#modal_cdSendSuccess .wd_tipsBox {
+  position: relative; }
+
+#modal_cdSendSuccess .modal_btnBox a:hover {
+  text-decoration: underline; }
+
+#modal_cdNoLogin .layui-form-item, #modal_cdLogined .layui-form-item {
+  margin-bottom: 10px; }
+
+#modal_cdNoLogin .layui-input, #modal_cdLogined .layui-input {
+  height: 32px; }
+
+#modal_cdNoLogin .layui-input[name='mobile'], #modal_cdLogined .layui-input[name='mobile'] {
+  width: 262px; }
+
+#modal_cdNoLogin .layui-form-label, #modal_cdLogined .layui-form-label {
+  width: 50px; }
+
+#modal_cdNoLogin .layui-input-block, #modal_cdLogined .layui-input-block {
+  margin-left: 80px; }
+
+#modal_cdNoLogin .w-145, #modal_cdLogined .w-145 {
+  width: 145px; }
+
+#modal_cdNoLogin .get_code, #modal_cdNoLogin .standby, #modal_cdLogined .get_code, #modal_cdLogined .standby {
+  display: inline-block;
+  width: 102px;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 15px;
+  border-radius: 2px;
+  background-color: #00a0e9;
+  color: #fff;
+  font-size: 12px;
+  text-align: center; }
+
+#modal_cdNoLogin .get_code, #modal_cdLogined .get_code {
+  cursor: pointer; }
+
+#modal_cdNoLogin .standby, #modal_cdLogined .standby {
+  background-color: #BFBFBF;
+  display: none; }
+
+#modal_cdLogined i.icon {
+  margin-top: -2px;
+  margin-right: 6px;
+  vertical-align: middle; }
+
+#modal_cdLogined .font_fs14 {
+  font-size: 14px; }
+
+#modal_cdLogined .hide {
+  display: none; }
+
+#modal_cdLogined .modal_note {
+  width: 350px; }
+
+#modal_cdLogined .pos-b {
+  position: absolute;
+  bottom: 75px; }
+
+#modal_cdLogined .likeRadio input[type="radio"] {
+  display: none !important; }
+
+#modal_cdRequireLists button.modal_next {
+  background-color: #fff;
+  color: #666;
+  border: 1px solid #BFBFBF; }
+
+#modal_cdRequireLists a.modal_go {
+  margin: 0; }
+  #modal_cdRequireLists a.modal_go:hover {
+    text-decoration: underline; }
+
+#modal_cdRequireLists #modal_cdrl {
+  padding-top: 10px; }
+
+#modal_cdRequireLists #modal_cdrl .modal_go {
+  margin-left: 5px;
+  color: #00a0e9; }
+
+#modal_cdRequireLists #modal_cdrl .disabled .likecheckBox {
+  border-color: #ccc; }
+  #modal_cdRequireLists #modal_cdrl .disabled .likecheckBox:hover {
+    border-color: #ccc; }
+
+#modal_cdRequireLists #modal_cdrl .disabled span {
+  color: #999; }
+
+#modal_evaluate .modal_content {
+  padding-top: 10px; }
+
+#modal_evaluate .layui-form-item {
+  margin-bottom: 0;
+  font-size: 14px; }
+
+#modal_evaluate .layui-input-block {
+  line-height: 38px; }
+
+#modal_evaluate .data_targetname {
+  margin: 0 5px; }
+
+#modal_evaluate .stars {
+  line-height: 42px; }
+  #modal_evaluate .stars i {
+    cursor: pointer; }
+
+#modal_evaluate .modal_title_box {
+  padding-left: 54px; }
+
+#modal_evaluate .modal_note {
+  padding: 0 54px; }
+
+#modal_evaluate textarea {
+  width: 330px;
+  height: 94px;
+  margin-top: 15px;
+  padding: 5px;
+  border: 1px solid #BFBFBF;
+  border-radius: 2px;
+  resize: none; }
+
+#modal_evaluate textarea:focus {
+  border-color: #00a0e9;
+  box-shadow: 0 0 1px #888; }
+
+#modalHandleRequirements .modal_icon, #modalHandleOrders .modal_icon {
+  float: left;
+  margin: 0 10px 0 30px;
+  padding-top: 0;
+  vertical-align: middle; }
+
+#modal_lotOfRefuseReq .modal_icon, #modal_lotOfDeleteReq .modal_icon {
+  padding-top: 0; }
+  #modal_lotOfRefuseReq .modal_icon img, #modal_lotOfDeleteReq .modal_icon img {
+    width: 24px;
+    height: 20px; }
+
+#modal_lotOfRefuseReq .modal_note, #modal_lotOfDeleteReq .modal_note {
+  padding: 0 20px 0 40px; }
+
+#modal_checkAddress .modal_contain {
+  width: 700px;
+  height: 500px;
+  margin: -250px 0 0 -350px; }
+
+#modal_checkAddress .modal_content {
+  padding: 20px 10px 0; }
+
+#modal_checkAddress .content_title {
+  margin-bottom: 20px; }
+
+#modal_checkAddress #addressContainer {
+  width: 680px;
+  height: 330px; }
+
+.forgetPassword {
+  margin-left: 20px;
+  font-size: 12px;
+  color: #00a0e9; }
+  .forgetPassword:hover {
+    color: #00a0e9;
+    text-decoration: underline; }

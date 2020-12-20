@@ -1,0 +1,146 @@
+/*侧边工具栏(改版)*/
+/* kiki添加于20160727 */
+.side_tool_box .side_tool em,.side_tool_box .apply_design:hover em,.side_tool_box .app_down:hover em,
+.side_tool_box .down_code em,.side_tool_box .app_down i,.side_tool_box .weixin_code em{
+    background: url('//img.shejiben.com/shejiben_img/tool/tool_icon.png?20170824') no-repeat;
+}
+.side_tool_box{
+    position: fixed;
+    right:130px;
+    width: 62px;
+    z-index: 1000;
+    border-top: none;
+    text-align: center;
+    text-align: center;
+} 
+.side_tool_box .tool_box{
+    position: relative;
+}
+.side_tool_box .side_tool{
+    float: left;
+    width: 60px;
+    height: 60px;
+    border: solid 1px #eee;
+    font-size: 12px;
+    color: #666;
+    background: #fff;
+    border-top: none;
+}
+.side_tool_box .apply_design{
+    position: relative; 
+    border-top: solid 1px #eee; 
+}
+.side_tool_box .side_tool:hover{
+    background: #dd4f50;
+    border: solid 1px #dd4f50;
+    color:#fff;
+    border-top: none;
+}
+.side_tool_box .apply_design:hover{
+    border-top: solid 1px #dd4f50;
+}
+.side_tool_box .side_tool em{
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 10px auto 5px;
+}
+.side_tool_box .side_tool label{
+    cursor: pointer;
+}
+.side_tool_box .apply_design em{
+    background: url('//img.shejiben.com/shejiben_img/tool/apply_design.gif?20160727') no-repeat;
+}
+.side_tool_box .apply_design .red_dot{
+    position: absolute;
+    top: 12px; 
+    right: 6px; 
+    width: 6px;
+    height: 6px; 
+    background: url('//img.shejiben.com/shejiben_img/tool/red_dot.gif?20160727') no-repeat; 
+    border-radius: 3px; 
+}
+.side_tool_box .app_down em{
+    background: url('//img.shejiben.com/shejiben_img/tool/code.gif?20160727') no-repeat;
+}
+.side_tool_box .idea_tickling em{
+    background-position: -102px -37px;
+}
+.side_tool_box .app_down i{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-position: -160px -5px;
+    margin: -35px 0 0 -2px;
+    *margin-left: -48px;
+}
+.side_tool_box .go_top em{
+    background-position: -101px -10px;
+}
+.side_tool_box .apply_design:hover em{
+    background-position: -131px -37px;
+}
+.side_tool_box .idea_tickling:hover em{
+    background-position: -131px -10px;
+}
+.side_tool_box .app_down:hover em{
+    background-position: -133px -67px;
+}
+.side_tool_box .go_top:hover em{
+    background-position: -102px -63px;
+}
+.side_tool_box .tool_box .down_code_box{
+    display: none;
+    position: absolute;
+    top:20px;
+    left:-342px;
+    width: 342px;
+    height: 174px; 
+    overflow: hidden;
+    z-index: 990;
+    *top:-165px; 
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .1);    
+    background: #fff;
+}
+.side_tool_box .down_code{
+    float: left;
+    display: block;
+    width: 110px;
+    height: auto;
+    margin: 15px 0 3px 32px;
+    border-right: none;
+    *border-right: 0;
+}
+.side_tool_box .down_code em{
+    display: block;
+    width: 110px;
+    height: 110px;
+    margin-bottom: 8px;
+    background-position: -4px -106px;
+}
+.side_tool_box .down_code p{
+    line-height: 16px;
+    color: #ef404a;
+    font-size: 12px;
+}
+.side_tool_box .weixin_code{
+    float: left;
+    display: block;
+    width: 120px;
+    height: auto;
+    margin: 15px 0 3px 60px;
+    border-right: none;
+    *border-right: 0;
+}
+.side_tool_box .weixin_code em{
+    display: block;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 8px;
+    background-position: -121px -106px;
+}
+.side_tool_box .weixin_code p{
+    line-height: 16px;
+    color: #ef404a;
+    font-size: 12px;
+}

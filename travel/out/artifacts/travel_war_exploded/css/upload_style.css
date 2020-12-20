@@ -1,0 +1,123 @@
+
+.file {
+    position: relative;
+
+display: inline-block;
+
+background: #A05E1C;
+
+border: 1px solid #BEB5B1;
+
+border-radius: 4px;
+
+padding: 4px 12px;
+
+overflow: hidden;
+
+color: #F6FAFC;
+
+text-decoration: none;
+
+text-indent: 0;
+
+line-height: 30px;
+
+margin: 5px 10px 0px 85px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #F6FAFC;
+   
+    color:#A05E1C;
+    text-decoration: none;
+}
+
+
+.ge_pic_icon_Infor2, .ge_pic_icon_Infor
+{
+	padding-left: 90px;
+
+display: flex;
+
+flex-wrap: wrap;
+	
+}
+
+.ge_pic_icon_Infor2 img, .ge_pic_icon_Infor img
+{
+	
+	margin-right: 15px;
+
+margin-top: 10px;
+}
+
+
+.mybanner
+{
+	background: #765f52;
+}
+.upload{
+	
+	padding: 50px;
+}
+
+.line
+{
+	
+}
+.line p
+{
+	
+	display: inline-block;
+}
+.line input
+{
+margin-bottom: 20px;
+
+color: #3a3030;
+
+font-size: 15px;
+
+display: inline-block;
+
+width: 350px;
+
+height: 40px;
+
+margin-left: 30px;
+
+padding-left: 10px;
+}
+
+.uploadform
+{
+	
+	width: 500px;
+
+margin: 0 auto;
+}
+
+.subbutton input
+{
+	padding: 5px;
+
+height: 40px;
+
+width: 100px;
+
+font-size: 15px;
+
+margin: 50px 0px 0px 200px;
+
+background: #fca010;
+
+border: 0px;
+
+color: white;
+}

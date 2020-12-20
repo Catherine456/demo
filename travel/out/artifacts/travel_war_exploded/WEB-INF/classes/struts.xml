@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+    <constant name="struts.action.excludePattern" value="/css/.*?" />
+    <constant name="struts.ui.theme" value="simple" />
+    <constant name="struts.ui.templateDir" value="template" />
+    <constant name="struts.ui.templateSuffix" value="ftl" />
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <constant name="struts.multipart.maxSize" value="209715200" />
+    <constant name="struts.multipart.saveDir" value="/tmp" />
+
+
+    <package name="strutsBean" extends="struts-default" namespace="/">
+        <interceptors>
+            <interceptor name="loginInterceptor" class="cn.edu.zjut.intercepter.LoginIntercepter" />
+            <interceptor name="authorityInterceptor" class="cn.edu.zjut.intercepter.AuthorityInterceptor"></interceptor>
+        </interceptors>
+        <action name="uploadCase" class="cn.edu.zjut.action.DesignerAction" method="upload">
+            <result name="uploadSucccess">/uploadCaseResult.jsp</result>
+            <result name="uploadFail">/uploadCase.jsp</result>
+            <result name="input">/uploadCase.jsp</result>
+        </action>
+        <action name="login" class="cn.edu.zjut.action.DesignerAction" method="login">
+            <result name="loginSuccess">/index.jsp</result>
+            <result name="loginFail">/login.jsp</result>
+            <result name="input">/login.jsp</result>
+        </action>
+        <action name="findAllExample" class="cn.edu.zjut.action.ExampleAction" method="findAllExample">
+            <result name="success">/projects.jsp</result>
+            <result name="login">/login.jsp</result>
+            <interceptor-ref name="authorityInterceptor"/>
+        </action>
+        <action name="putExample" class="cn.edu.zjut.action.ExampleAction" method="putExample">
+            <result name="success">/exampleDetails.jsp</result>
+        </action>
+        <action name="showPanorama" class="cn.edu.zjut.action.PanoramaAction" method="show">
+            <result name="showSuccess">/showPanorama.jsp</result>
+        </action>
+        <action name="putDesigner" class="cn.edu.zjut.action.DesignerAction" method="putDesigner">
+            <result name="others">/phpOthers.jsp</result>
+            <result name="myself">/php.jsp</result>
+        </action>
+        <action name="gotoSubscribe" class="cn.edu.zjut.action.DesignerAction" method="gotoSubscribe">
+            <result name="success">/subscribe.jsp</result>
+        </action>
+        <action name="putEmployer" class="cn.edu.zjut.action.EmployerAction" method="putEmployer">
+            <result name="others">/employerPhpOthers.jsp</result>
+            <result name="myself">/employerPhp.jsp</result>
+        </action>
+        <action name="Review" class="cn.edu.zjut.action.ExampleAction" method="review">
+            <result name="viewSuccess">/exampleDetails.jsp</result>
+            <result name="viewFail">/exampleDetails.jsp</result>
+        </action>
+        <action name="judge" class="cn.edu.zjut.action.DesignerAction" method="judgeIdentity">
+            <result name="designer">/php.jsp</result>
+            <result name="employer">/employerPhp.jsp</result>
+        </action>
+        <action name="registerDes" class="cn.edu.zjut.action.DesignerAction" method="registerDes">
+            <result name="success">/registerDes.jsp</result>
+            <result name="fail">/registerDes.jsp</result>
+            <result name="input">/registerDes.jsp</result>
+        </action>
+        <action name="registerEmp" class="cn.edu.zjut.action.EmployerAction" method="registerEmp">
+            <result name="success">/registerEmp.jsp</result>
+            <result name="fail">/registerEmp.jsp</result>
+            <result name="input">registerEmp.jsp</result>
+        </action>
+        <action name="order" class="cn.edu.zjut.action.NeedsAction" method="order">
+            <result name="success">/needs.jsp</result>
+            <result name="fail">/needs.jsp</result>
+        </action>
+        <action name="subscribe" class="cn.edu.zjut.action.SubscribeAction" method="subscribe">
+            <result name="success">/index.jsp</result>
+            <result name="fail">/phpOthers.jsp</result>
+        </action>
+        <action name="findneeds" class="cn.edu.zjut.action.NeedsAction" method="findneeds">
+            <result name="findneedssuccess">/needList.jsp</result>
+            <result name="login">/login.jsp</result>
+        </action>
+        <action name="putSubscribe" class="cn.edu.zjut.action.SubscribeAction" method="putSubscribe">
+            <result name="success">/subscribeDetail.jsp</result>
+        </action>
+        <action name="findAll" class="cn.edu.zjut.action.DesignerAction" method="findAll" >
+            <result name="success">/selectDesigner.jsp</result>
+            <result name="fail">/login.jsp</result>
+        </action>
+        <action name="findByPraise" class="cn.edu.zjut.action.DesignerAction" method="findByPraise" >
+            <result name="praiseSuccess">/selectByPraise.jsp</result>
+            <result name="praiseFail">/login.jsp</result>
+        </action>
+
+        <action name="accept" class="cn.edu.zjut.action.SubscribeAction" method="accept">
+            <result name="success">/php.jsp</result>
+
+        </action>
+
+
+        <!--增加 gotoGenerateOrder -->
+        <action name="gotoGenerateOrder" class="cn.edu.zjut.action.SubscribeAction" method="gotoGenerateOrder">
+            <result name="success">/subscribeToOrderr.jsp</result>
+        </action>
+
+
+        <action name="reject" class="cn.edu.zjut.action.SubscribeAction" method="reject">
+            <result name="success">/designerIndex.jsp</result>
+        </action>
+
+        <action name="findByScore" class="cn.edu.zjut.action.DesignerAction" method="findByScore" >
+            <result name="scoreSuccess">/selectByScore.jsp</result>
+            <result name="scoreFail">/login.jsp</result>
+        </action>
+
+
+        <action name="searchInFrame" class="cn.edu.zjut.action.ExampleAction" method="searchInFrame">
+            <result name="success">/projects.jsp</result>
+            <result name="fail">/projects.jsp</result>
+        </action>
+
+
+        <action name="searchInList" class="cn.edu.zjut.action.ExampleAction" method="searchInList">
+            <result name="success">/resultList.jsp</result>
+            <result name="fail">/resultList.jsp</result>
+        </action>
+        <action name="praise" class="cn.edu.zjut.action.ExampleAction" method="praise">
+        </action>
+        <action name="star" class="cn.edu.zjut.action.ExampleAction" method="star">
+        </action>
+        <action name="unstar" class="cn.edu.zjut.action.ExampleAction" method="unstar">
+        </action>
+        <action name="unstarInList" class="cn.edu.zjut.action.ExampleAction" method="unstarInList">
+            <result name="success">/starExamples.jsp</result>
+        </action>
+
+
+        <action name="SubmitOrderr" class="cn.edu.zjut.action.OrderrAction" method="SubmitOrderr" >
+            <result name="success" >/orderDetail.jsp</result>
+            <result name="false">/wrong.jsp </result>
+        </action>
+        <action name="changeOrderrSt" class="cn.edu.zjut.action.OrderrAction" method="changeOrderrSt" >
+            <result name="success">/orderDetail.jsp</result>
+        </action>
+        <action name="orderrByID" class="cn.edu.zjut.action.OrderrAction" method="getOrderrByID">
+            <result name="success">/orderDetail.jsp</result>
+        </action>
+        <action name="needsByID" class="cn.edu.zjut.action.NeedsAction" method="getNeedsByID">
+            <result name="success">/needsDetail.jsp</result>
+        </action>
+        <action name="SignUp" class="cn.edu.zjut.action.NeedsAction" method="SignUp">
+            <result name="success">/needsDetail.jsp</result>
+        </action>
+        <action name="cancelSignUp" class="cn.edu.zjut.action.NeedsAction" method="cancelSignUp">
+            <result name="success">/needsDetail.jsp</result>
+        </action>
+        <action name="cancelNeeds" class="cn.edu.zjut.action.NeedsAction" method="cancelNeeds">
+            <result name="success">/needsDetail.jsp</result>
+        </action>
+        <action name="logout" class="cn.edu.zjut.action.DesignerAction" method="logout">
+            <result name="success">/login.jsp</result>
+            <result name="false">/wrong.jsp </result>
+        </action>
+        <action name="SelectDes" class="cn.edu.zjut.action.NeedsAction" method="SelectDes">
+            <result name="success">/NeedsToOrderr.jsp</result>
+            <result name="false">/wrong.jsp </result>
+        </action>
+        <action name="update" class="cn.edu.zjut.action.DesignerAction" method="update">
+            <result name="success" >/Dpersonal.jsp</result>
+            <result name="fail" >/Dpersonal.jsp</result>
+        </action>
+        <action name="update2" class="cn.edu.zjut.action.DesignerAction" method="update2">
+            <result name="success" >/Dcertificate.jsp</result>
+            <result name="fail" >/Dcertificate.jsp</result>
+        </action>
+
+        <action name="update3" class="cn.edu.zjut.action.EmployerAction" method="update3">
+            <result name="success" >/Dpersonal.jsp</result>
+            <result name="fail" >/Dpersonal.jsp</result>
+        </action>
+        <action name="recommend1" class="cn.edu.zjut.action.DesignerAction" method="recommend1">
+            <result name="success" >/recommend.jsp</result>
+            <result name="fail" >/recommend.jsp</result>
+        </action>
+        <action name="recommend2" class="cn.edu.zjut.action.DesignerAction" method="recommend2">
+            <result name="success" >/recommend.jsp</result>
+            <result name="fail" >/recommend.jsp</result>
+        </action>
+        <action name="recommend3" class="cn.edu.zjut.action.DesignerAction" method="recommend3">
+            <result name="success" >/recommend.jsp</result>
+            <result name="fail" >/recommend.jsp</result>
+        </action>
+
+        <action name="view" class="cn.edu.zjut.action.AdminAction" method="View">
+            <result name="success">/authendetail.jsp</result>
+        </action>
+        <action name="authen" class="cn.edu.zjut.action.AdminAction" method="Authen">
+            <result name="success">/authendetail.jsp</result>
+            <result name="fail">/authendetail.jsp</result>
+        </action>
+        <action name="logout1" class="cn.edu.zjut.action.AdminAction" method="Logout">
+            <result name="success">/logout.jsp</result>
+            <result name="fail">/logout.jsp</result>
+        </action>
+        <action name="recommendE" class="cn.edu.zjut.action.AdminAction" method="Recommend1">
+            <result name="success">/manager1.jsp</result>
+            <result name="fail">/manager1.jsp</result>
+        </action>
+        <action name="recommendD" class="cn.edu.zjut.action.AdminAction" method="Recommend">
+            <result name="success">/manager.jsp</result>
+            <result name="fail">/manager.jsp</result>
+        </action>
+        <action name="exit" class="cn.edu.zjut.action.AdminAction" method="Exit">
+            <result name="success">/index.jsp</result>
+            <result name="fail">/manager.jsp</result>
+        </action>
+        <action name="show" class="cn.edu.zjut.action.AdminAction" method="display">
+            <result name="success">/manager.jsp</result>
+            <result name="fail">/manager.jsp</result>
+        </action>
+        <action name="show1" class="cn.edu.zjut.action.AdminAction" method="display">
+            <result name="success">/manager1.jsp</result>
+        </action>
+        <action name="show2" class="cn.edu.zjut.action.AdminAction" method="display1">
+            <result name="success">/authentication.jsp</result>
+        </action>
+        <action name="show3" class="cn.edu.zjut.action.AdminAction" method="display2">
+            <result name="success">/authentication1.jsp</result>
+        </action>
+        <action name="showDataChart" class="cn.edu.zjut.action.WebdataAction" method="showDataChart">
+            <result name="success" >/datachart.jsp</result>
+        </action>
+
+        <action name="searchByAccount" class="cn.edu.zjut.action.DesignerAction" method="searchByAccount">
+            <result name="accountSuccess">/selectByAccount.jsp</result>
+            <result name="accountFail">/selectDesigner.jsp</result>
+        </action>
+        <action name="apprise" class="cn.edu.zjut.action.AppriseAction" method="apprise">
+            <result name="success">/employerIndex.jsp</result>
+            <result name="fail">/php.jsp</result>
+        </action>
+        <action name="removeExample" class="cn.edu.zjut.action.DesignerAction" method="removeCase">
+            <result name="success">/php.jsp</result>
+        </action>
+        <action name="app" class="cn.edu.zjut.action.OrderrAction" method="app">
+            <result name="success">/apprise.jsp</result>
+        </action>
+        <action name="back" class="cn.edu.zjut.action.EmployerAction" method="back">
+            <result name="success">/employerIndex.jsp</result>
+        </action>
+        <action name="back2" class="cn.edu.zjut.action.EmployerAction" method="back">
+            <result name="success">/index.jsp</result>
+        </action>
+        <action name="pay" class="cn.edu.zjut.action.OrderrAction" method="pay">
+            <result name="success">/index.jsp</result>
+        </action>
+        <action name="finish" class="cn.edu.zjut.action.OrderrAction" method="finish">
+            <result name="success">/index.jsp</result>
+        </action>
+        <action name="getApprise" class="cn.edu.zjut.action.AppriseAction" method="getApprises">
+            <result name="success">/getApprise.jsp</result>
+        </action>
+        <action name="cancelSub" class="cn.edu.zjut.action.SubscribeAction" method="cancelSub">
+            <result name="success">/employerIndex.jsp</result>
+        </action>
+    </package>
+</struts>

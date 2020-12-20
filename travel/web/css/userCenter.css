@@ -1,0 +1,689 @@
+/*   全局公共css   */
+@charset "utf-8";
+body{background: #f2f2f2;}
+.wrapper{ width:100%; height:auto; position:relative;}
+.container{ width:990px; height:auto; margin:0 auto; /*margin-top:20px; */padding-bottom:80px;}
+/*个人中心 接单大厅*/
+.content{width:1000px;margin:0 auto;overflow: hidden;}
+.selec_ele{background:#fff;padding-left: 30px;padding: 20px 30px 20px 20px;color: #666;}
+.selec_ele div{height:50px;padding-top: 20px;}
+.selec_ele div.selec_budget{padding-top: 0px;height: 31px;}
+.selec_ele div label{font-size:14px;font-weight:bold;display: -webkit-inline-box;float: left;color: #333;margin-top: 3px;}
+.selec_ele div.sele div{display: inline-block;margin-bottom: -7px;width: 800px;float: left;padding-top: 0;}
+.selec_ele div.sele a {float:left;padding: 4px 6px;margin-right: 5px;border-radius: 3px;cursor:pointer;-moz-border-radius: 3px; -webkit-border-radius: 3px; margin-bottom: 5px;}
+.selec_ele div.sele a.cur{background: #dd4f50;color: #fff;}
+.selec_ele div.sele a{color: #666;}
+.selec_sort{background:#fff;margin-top:10px;height:40px;line-height:40px;font-size: 12px;margin-bottom: 20px;color: #666666;border: 1px solid #eaeaea;}
+.selec_s_ li {position: relative;}
+.selec_s_  a{float:left;width: 105px;text-align: center;border-right: 1px solid #EFEDEE;cursor: pointer;display: inline-block;}
+.selec_s_ ul li p{ width:auto; float:left; margin-left:20px;}
+.selec_s_ a:hover{color:#dd4f50;}
+.selec_s_ a:hover span{background-position: -220px -120px;}
+.selec_s_ a.cur{color:#dd4f50;}
+.selec_s_ a.cur span{background-position: -220px -120px;}
+.selec_s_ a span{display:inline-block;background:url(//img.shejiben.com/my/popularize_center/back.png) no-repeat;background-position: -209px -120px;width:15px;height:15px;*margin-top:-4px;*vertical-align:middle;margin-bottom: -2px;}
+.selec_sort .small_page{text-align:right;margin-right:25px;}
+.selec_sort .small_page a:hover{color: #333;}
+.selec_sort .small_page .prev_page{margin-right:15px;cursor:pointer;font-family: 'Micsoft Yahei';font-weight: bold;}
+.selec_sort .small_page .next_page{margin-left:13px;cursor:pointer;font-family: 'Micsoft YaHei';font-weight: bold;}
+
+/* 个人中心 接单大厅 数据列表*/
+.prod_list .list_ {width: 741px;background: #fff;overflow: hidden;float: left; margin-bottom:40px;min-height: 400px;}
+.prod_list .list_ .list_info{overflow: hidden;margin: 30px;padding-bottom: 30px;border-bottom: 1px dotted #EDECED;}
+.list_info ._info{width: 553px;float: left;overflow: hidden;}
+.list_info ._info div a{font-size: 14px;color: #666;font-weight: bold;}
+.list_info ._info div a:hover{color: #dd4f50;}
+.list_info ._info b{font-size:14px;color:#666;}
+.prod_list .list_ .no_data{text-align: center;}
+.prod_list .list_ .no_data img{margin: 0 auto;margin-bottom: 29px;margin-top: 60px;}
+.jdsq div b{font-weight:normal;}
+.list_info ._info .price {color:#dd4f50;font-size:14px;margin-left:15px; font-family:Arial,Helvetica,sans-serif;}
+.list_info ._info .jc_info{margin-top: 15px;color: #999;}
+.list_info ._info .jc_info span{border-right:1px solid #ddd;padding-left: 13px;padding-right: 13px;}
+.list_info div.cor{width: 91px;height: 34px;float: right;border: 1px solid #e8e8e8;text-align: center;line-height: 34px;margin-top: 15px;cursor: pointer;border-radius: 4px;}
+.list_info .look_more{background: #eee;color: #666;}
+.list_info .apply_for{background: #DE504F;color:#fff;}
+.list_ .bg_page a{float:left;color: #666;}
+.list_ .bg_page ul{float:left;margin-bottom: 20px;display: inline-block;}
+.list_ .bg_page{text-align: center;margin-bottom: 45px;padding-top: 10px;width: 450px;margin: 0 auto;overflow: hidden;color: #666;}
+.list_ .bg_page ul li{float:left;cursor:pointer;}
+.list_ .bg_page ul li.cur{background:#e94c3d;color:#fff;border-radius: 3px;}
+
+/*个人中心 接单申请 1*/
+.content_right{width: 822px;float: right;background: #fff;min-height: 730px;font-family: Arial;}
+.cont_main{overflow: hidden;margin: 20px;}
+.cont_right_title{padding-bottom: 10px;border-bottom: 1px solid #eee;overflow: hidden;}
+.proj_label{height: 45px;line-height: 45px;background: #f8f8f8;margin-top: 20px;font-family: "Arial";color: #999;}
+.proj_msg .statu{float: right;width: 100px;text-align: center;color: #666;line-height:20px;}
+.proj_msg .list_info{border-bottom: 1px dotted #EDECED;padding-top: 20px;overflow: hidden;padding-bottom: 20px;}
+.bg_page a{float:left;color: #666; line-height:30px; height:30px; margin:0 15px;}
+.bg_page ul{float:left; margin-bottom: 20px; display: inline-block;}
+.bg_page{text-align: center;margin-bottom: 45px;padding-top: 30px;width:460px;margin:0 auto;padding-bottom: 40px;color: #666;font-family: Arial;}
+.bg_page ul li{width:30px; height:30px; display:block; text-align:center; line-height:30px; margin:0 3px; font-size:14px;float:left;cursor:pointer;}
+.bg_page ul li.cur{background:#DE504F;color:#fff;border-radius: 3px;}
+
+/*个人中心 接单申请 2 */
+.apply_remind{margin-top: 20px;background: #FFFDEE;border: 1px solid #FFEDD8;color:#666;padding:20px 30px;}
+.apply_remind_03 {	padding: 55px 0px 75px 0px; 	margin-top: 25px; background: #FFFDEE; border: 1px solid #FFEDD8; color:#666; text-align:center;font-size: 14px;}
+.apply_remind .go{width: 122px;height: 35px;background: #DE504F;font-size: 14px;line-height: 35px;text-align: center;color: #fff;border-radius: 5px;margin-top: 20px;cursor:pointer;}
+.apply_remind_03 a.qq{background:url(//img.shejiben.com/my/popularize_center/back.png) no-repeat;width:75px;height:23px;background-position: -199px -145px;display: inline-block;margin-bottom: -5px;margin-left: 10px;}
+
+/* 非合作设计师*/
+.assign_stage_new { width:auto; padding:20px; height:auto; background:#fffdee; border:1px #ffe9d1 solid; margin-top:20px;}
+.assign_stage_new .no_cooperate{ width:655px; height: auto; margin: 0 auto; padding: 30px 0;}
+.assign_stage_new .no_cooperate p{ width: auto; float: left; color: #666; font-size: 14px; font-weight: normal; margin:5px 5px 0 0;}
+.assign_stage_new .no_cooperate a{width: auto; float: left; width: 82px; height: 26px; background: url(//img.shejiben.com/my/popularize_center/small_img.png) -216px -76px; margin-left: 10px; line-height: 26px; text-indent: 30px; color: #999;}
+
+/* 公用 无数据页面的样式*/
+.assign_stage_new .no_date{ width: 100%;}
+.assign_stage_new .no_date p{ width: 100%; height: auto; color: #666; font-size: 14px; font-weight: normal; margin:5px 5px 0 0;}
+.assign_stage_new .no_date a{ width:125px; height:36px; display: block; margin-top: 20px; background: url(//img.shejiben.com/my/popularize_center/small_img.png) no-repeat 0 -260px; color: #fff; text-align:center; line-height: 36px; font-size: 14px; }
+.assign_stage_new .no_date a:hover{ background: url(//img.shejiben.com/my/popularize_center/small_img.png) no-repeat -126px -260px;}
+
+/*个人中心 项目详情*/
+.project_msg{width: 725px;float: left;}
+._msg_info{background:#fff;width: 741px;overflow: hidden;font-family: Arial;}
+.proj_name{line-height: 30px;float: left;}
+._msg_info .apply_for{float: right;width: 95px;margin-top: 40px;}
+._msg_info  .apply_end{float:right;}
+._msg_info  em{font-size:12px;padding-right:5px;}
+.proj_massages {margin: 25px 30px 30px 30px;overflow: hidden;border-bottom: 1px dotted #EDECED;padding-bottom: 30px;}
+.proj_massages ._massa{color: #666;font-size: 14px;float: left;line-height: 33px;}
+.proj_massages ._massa label{color: #333;}
+.proj_massages  ._end{float:right;width: 91px;height: 34px;border: 1px solid #e8e8e8;text-align: center;line-height: 34px;margin-top: 15px;cursor: pointer;border-radius: 4px;background: #eee;}
+.proj_devise{color:#666;font-size: 14px;margin: 0 30px;padding-bottom: 200px;}
+.prod_adver{float:right;}
+.privit_{width: 239px;height: 153px;line-height: 153px;background: #ddd;text-align: center;margin-top: 20px;font-size: 14px;color: #333;font-family: 'microsoft yahei';}
+
+/* 问答管理*/
+.question_manage{margin:10px 20px 80px;}
+.my_question{margin-top: 20px;}
+.question_manage .manage_tab ul li a{width: 100px;height: 33px;display: inline-block;}
+.question_manage .manage_tab ul li.cur a{color: #dd4f50 !important;}
+.question_manage .manage_tab ul li:hover a{color: #dd4f50 !important;}
+._ques_name{border-bottom: 1px dotted #e6e6e6;margin-top:20px;overflow: hidden;}
+._ques_name .blong_type {line-height: 35px;width: 645px;}
+._ques_name .blong_type label.type{float: left; font-size: 12px;}
+._ques_name .blong_type .select_box{float: left;padding-bottom: 0;}
+._ques_name .blong_type .select_box .select_input{width: 85px;}
+._ques_name .blong_type .select_box .select_input label{color: #333;}
+._ques_name .blong_type .select_box .select_elem{padding-bottom: 0;}
+._ques_name  div.publish_blong{padding-bottom: 20px;color: #666;}
+._ques_name  div.publish_blong a { font-size: 14px;}
+._ques_name ._name{font-size:14px;color: #333;padding-bottom: 15px;}
+._ques_name ._name a{ color: #333;}
+._ques_name ._name a:hover{ color: #dd4f50;}
+._ques_name  ._ques_other{color:#999; padding-bottom: 16px;}
+._ques_other span{border-right:1px solid #e6e6e6;padding:0 8px;cursor: auto;}
+.intr_area label{margin-top:10px;}
+.name_auth .intr{margin:25px 0 80px 120px; }
+
+/* by carl for color */
+._ques_name ._name .red{color: #dd4f50;}
+
+/*实名认证  个人认证*/
+.name_auth {margin: 20px;font-size: 14px;}
+.name_auth .my_blongs{margin-top: 20px;}
+._rig{color:#666;}
+
+._rig div span{color:#333;}
+.name_auth .tab{padding-bottom: 15px;border-bottom: 1px solid #eee;font-size: 14px;font-weight: bold;color:#333;}
+.name_auth .auth_data{padding-top: 10px;}
+.name_auth .auth_data div{margin-bottom: 10px;color: #666;overflow: hidden;line-height: 35px;}
+._rig .auth_data div {margin-bottom:20px;position: relative;}
+.name_auth .auth_data .column_name{text-indent: 15px;color: #333;font-size: 14px;font-weight: bold;}
+.name_auth .auth_data div label{color: #666;width: 120px;text-align: right;display: inline-block;float: left;}
+.name_auth .auth_data .select_location select{ width: 168px; float: left;}
+.name_auth .auth_data .user_type { margin: 0;}
+.name_auth .auth_data .user_type label{}
+.name_auth .auth_data .user_type span{ float: left; height: 35px; line-height: 35px;}
+.name_auth .auth_data .user_type .edit_password{ float: left; height: 35px; height: 35px; display: block; margin-left:5px; color: #dd4f50; cursor: pointer; font-size: 12px; }
+.name_auth .auth_data .user_type .edit_password .update { width: 16px; height: 16px; margin-top: 8px;}
+.name_auth .auth_data .select_box{float: left;margin-bottom: 0;margin-right: 11px;}
+.name_auth .auth_data .select_box .select_input{margin-bottom: 0;}
+.name_auth .auth_data .select_box .select_input label{float: none;display: inline;}
+.name_auth .auth_data div img{padding: 0 10px;  width: 110px;}
+.name_auth .auth_data .good_space label{ color: #333;}
+.name_auth .auth_data .good_space .float_l{width: 660px;color: #333;}
+.name_auth .auth_data .good_space p{ display: block; width: auto; margin-left: 50px;}
+.name_auth .auth_data .border_bottom{ padding-bottom: 30px; border-bottom: 1px #eee dashed;}
+.name_auth .auth_data .serve_type p{ color: #999;}
+.name_auth .auth_data .serve_type .select_type{height: 38px; line-height: 38px;}
+.name_auth .auth_data .serve_type .select_type label{float: left;width: auto;line-height: 36px; margin-left: 2px;}
+.name_auth .auth_data .serve_type .select_type .area{ float: left; width: auto; display: none;}
+.name_auth .auth_data .serve_type .select_type input[type="checkbox"]{width: 14px;height: 14px;float: left; margin: 11px 0 0 0;}
+.name_auth .auth_data .serve_type .select_type em{ float: left; color: #dd4f50; width:5px;height: 10px; margin: 0 0 0 5px;}
+.name_auth .auth_data .serve_type .select_type select{float: left; width: 203px; margin:0 2px 0 5px; color: #666;}
+.name_auth .auth_data .serve_type .select_type input[type="text"]{float: left; margin: 0 0 0 5px; width: 181px;}
+.name_auth .auth_data .yuancheng input[type="radio"]{float: left; width: 14px; margin-right: 5px;}
+.name_auth .auth_data .yuancheng span{ float: left; color: #999;}
+.name_auth .auth_data .yuancheng .radio{ width: 660px; clear:both; padding-left: 120px;}
+.name_auth .auth_data .yuancheng em{ width: auto; float: left; margin-right: 20px; color: #666;}
+.name_auth .box #submit1{margin:0 0 60px 120px;}
+/*实名认证  确认资料 个人*/
+.name_auth .fb{ margin-top: 10px;}
+.name_auth .red{ color: #dd4f50;}
+.name_auth .pes_auth{height:40px;font-size:14px;background:#F8F8F8;line-height:40px;padding-left:20px;margin-top: 20px;margin-left: 20px;}
+
+/*** 实名认证 ***/
+.content_right {float: right;width: 782px;background: #fff;padding: 0 20px;min-height: 731px;}
+.real_name .single_tab {border-bottom: 1px solid #eee;font-size: 14px;color: #333;height: 16px;padding: 20px 0 15px;}
+.real_name .single_tab .tab_name {float: left;color: #333;font-weight: bold;}
+.real_name .real_name_approve{margin-top: 20px;}
+/* 申请页 */
+.real_name .license_notify .assign_stage{height: 50px;padding: 0;line-height: 50px;background: #fffdee;border: 1px #ffe9d1 solid;margin: 20px 0 20px 0;}
+.real_name .license_notify .sjs_reminder{color: #333;margin-left: 20px;font-size: 12px;}
+.real_name .license_notify .assign_stage a{color: #dd4f50;}
+.real_name .real_name_approve .peos_logo{float: left;width: 100px;height: 100px;background: url(//img.shejiben.com/my/popularize_center/small_img.png) -1px -490px;}
+.real_name .real_name_approve .peos_desc{float: left;width: 600px;margin-left: 15px;}
+.real_name .real_name_approve .peos_desc .name{font-weight: bold;font-size: 14px;color: #666;margin:10px 0 0 -5px;}
+.real_name .real_name_approve .peos_desc p{width: 100%;font-size: 14px;color: #666;margin-top: 10px;}
+.real_name .real_name_approve .peos_desc .to_apply{display: block;background: #dd4f50;width: 75px;height: 36px;line-height: 36px;border-radius: 3px;text-align: center;color: #fff;margin-top: 10px;font-size: 14px;border: none;}
+/* 审核页 */
+.real_name .auth_data {padding-top: 10px;}
+.real_name .auth_data div {color: #666;overflow: hidden;line-height: 35px;margin-bottom: 20px;font-size: 14px;}
+.real_name .auth_data div label {float: left;width: 120px;color: #666;text-align: right;}
+.real_name .auth_data div span{color: #333;}
+.real_name .auth_data div .explain{color: #999;}
+.real_name .auth_data div .red_font{color: #dd4f50;}
+.real_name .auth_data .papers_pic span{float: left;padding: 0 10px;}
+.real_name .btne{width:100%;margin:30px 0 0 120px; }
+/*个人资料*/
+.tab .progressBar{float:right;font-weight: normal;font-size: 12px;color:#666;}
+.tab .progressBar span{width:101px;height:10px;display:inline-block;background:#dfdfdf;margin-left: 10px;margin-right: 5px;}
+.tab .progressBar span i{background: #dd4f50;display: inline-block;height: inherit;}
+.auth_data .update{background:url(//img.shejiben.com/my/popularize_center/qb.png);display:inline-block;width:16px;height:16px;margin-bottom: -4px;margin-right: 3px;}
+.auth_data div select{width:107px; margin-right: 15px; 	height:36px;border:1px solid #DDDDDD;}
+.auth_data div input { padding: 0 10px; height: 36px; border:1px solid #DDDDDD; outline:none; font-family: '宋体'; font-size: 14px;}
+.auth_data div textarea{ outline:none; padding:10px;}
+.auth_data .leng_select select { width: 350px; font-size: 14px;}
+.auth_data div input,.auth_data div textarea{width: 330px; color: #333;height:36px;border:1px solid #DDDDDD;outline:none; padding:0 10px; font-size: 14px; color: #333;}
+.auth_data div select{width: 352px;color:#333;}
+.auth_data .box .msg{width: auto;padding:0 10px;height: 32px;line-height: 32px;background: #fffdee;border: 1px solid #ffe9d0;margin-left: 15px;text-align: center;color: #999;font-size: 12px;display: none;}
+.auth_data .box .msg_error{  display: inline-block;}
+.auth_data div select.city{width:115px;height:36px;}
+.auth_data div input.standard{width:77px;height:36px; margin:0 5px;margin-left: 0px;}
+.auth_data div em{display: inline-block;width: 12px;color: #ddd;}
+.auth_data div textarea{width:331px;height:130px;resize:none;padding: 10px;}
+/*个人中心 我的博文*/
+.my_blongs ._ques_other{padding-bottom:20px;font-size: 12px;color:#999;}
+.my_blongs  .project_introduts{color: #666;font-size: 12px; padding-bottom: 16px;}
+.blong_type{float:left;}
+.blong_type select{width:97px;height:34px;color: #666;line-height: 34px;vertical-align:middle;}
+.blong_type span{margin-left:10px;color:#dd4f50;cursor:pointer;}
+.blong_type span a{color:#dd4f50; font-size: 12px;}
+.publish_blong{float:right;color: #666;font-size: 12px;}
+.publish_blong input{color:#fff;}
+._name .edit{float:right;font-size: 12px;}
+._name .edit a{ color: #666; }
+._name .edit span{margin-left:20px;cursor:pointer;}
+._ques_other .ready_comment{float:right;color: #999;}
+.ready_comment span{border-right:0;margin-left:10px;padding-right:0px;}
+.project_introduts{
+	
+}
+
+/*博文发布*/
+.publish_blong_title{margin-top:30px;margin-bottom:20px;margin-left: 20px;}
+.publish_blong_title  input{border-radius:0;background:none;border:1px solid #ddd;	}
+.publish_blong_title .tit{width:457px;height:33px;color:#666; padding:0 10px;}
+.pub_type,.pub_stad,.checkCode{margin-left:20px;}
+.pub_type{margin-top:25px;padding-bottom:20px;overflow: hidden;line-height: 35px; position: relative;}
+.pub_type #globalDivClick label{display:block;width:100%;text-align:left;}
+.pub_type #globalDiv{margin-left:48px;}
+.pub_type .add{color:#dd4f50;cursor:pointer;margin-left: 5px;}
+.pub_type label.lab,.pub_stad label.lab,.checkCode label.lab{display: inline-block;width: 45px;text-align: right;float: left;}
+.pub_type .select_box{float: left;margin-left: 10px;}
+.pub_type .select_box .select_input{width: 195px;}
+.pub_type select{width: 213px;height: 35px;margin-left: 10px;margin-right: 15px;border: 1px solid #ddd;}
+.pub_stad input{width:15px;height:15px;border-radius:0;background:none;border:1px solid #ddd;margin-left:10px;vertical-align:middle;}
+.publish_blong .checkCode input{border-radius:0;background:none;border:1px solid #ddd;margin-left:10px;margin-right: 5px; color:#666; padding:0 10px;width:59px;height:33px;float: left;}
+.publish_blong .checkCode {margin-bottom:28px;margin-top:15px;height: 35px; position: relative;}
+.publish_blong .checkCode span {float: left;margin-top: 12px;margin-left: 5px;}
+.publish_blong .checkCode label {float: left;margin-top: 11px;}
+.publish_blong .checkCode img{line-height: 30px;height: 33px;border: 1px solid #ddd;float: left;width: 80px;margin-left: 5px;}
+.publish_blong .qd_cont_line{margin:30px 35px 40px 35px;*margin-bottom: 40px;padding-bottom: 40px;}
+.publish_blong ._publish .new_type_name{width: 195px;margin-right: 10px;border: 1px solid #ddd;height: 33px;color: #999;text-align: left;padding-left: 10px;}
+.blong_but {margin-bottom: 30px;margin-left: 20px;}
+.blong_but input{width:92px;height:35px;background:#dd4f50;border-radius:4px;color:#fff;margin-left: 47px;}
+.warm_div{float: left; margin-bottom: 20px; margin-left: 52px;  font-size: 14px;position: relative}
+.warm_div .warm_icon{ background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAABA0lEQVQokY3SwSuEURQF8N9MUyhbC3+BBfMfoDTZ2MxslZKslY2QMk2YJnaSnbKyJ0rZykZWbCyGZm01NVFsLNzR19fM9J16vffOPeede+vlmuWKPmhgDcfY7iXI9zGWsIJ5rGIuqzmPQ1TxgBqOkMtiXsIIznGBM4wGP9A8gn1sYQiLsW8GPzzIvI4mrlL8Jd6j/o9C4jwWCaUeo8AG7mKMj3RyFdd46mN+jPpuOnkCy5hKiH/wHauLHbzgBK/d5AZO0UoIPzGOrwTXCl2j2/YMplFPtVnEPSZTfD30s/m47KGdEnXwFh0k0Q79Qa5ZrnSwgGfZUcRtIV658feLsqKD2i/L2jYMffzlkQAAAABJRU5ErkJggg==") no-repeat;display: inline-block;height: 15px;width: 15px;background-size: contain;position: absolute;  position: absolute;left: -21px;top: 1px;}
+.content_msg_error{position: absolute;top: 496px;left: 0;z-index: 10;color: #dd4f50;}
+.log_list_msg_error{position: absolute;top: 28px;left: 55px;z-index: 10;color: #dd4f50;}
+#code_error{position: absolute;top: 28px;left: 55px;z-index: 10;color: #dd4f50;}
+/*图片批量管理*/
+.picture_cont{width:1200px;}
+.production_info{background:#fff;/*margin:30px 0px 20px 0px;*/padding:30px 20px;}
+.production_info label{margin-bottom:20px;color:#333;display:inline-block;font-size:14px;}
+.production_info p{color:#999;}
+.production_info p em{color:#dd4f50;padding:0 2px;}
+.production_info p span{color:#e6e6e6;}
+.pic_batch{background:#fff;margin:20px 0px 50px 0px;overflow: hidden;}
+.pics_operate .pics_del{float:left;}
+.pics_operate .pics_del input[type=submit]{font-size: 14px;}
+.pics_del input[type=checkbox]{vertical-align:middle;width:15px;height:15px;border:0;margin-right:5px;}
+.pics_del span{margin:0px 10px 0px 10px;}
+.pics_add .btn_06,.pics_del .btn_05{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -2px -350px;width:137px;height:34px;border:none;color:#dd4f50;outline:none;}
+.pics_del .btn_05{margin-right:8px;}
+.btn_05:hover{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -3px -389px;color:#fff;}
+.pics_add .btn_06,.pics_add .btn_16,.pics_del .btn_06{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -147px -349px;width:93px;height:34px;border:none;color:#dd4f50;outline:none;}
+.pics_add .btn_06:hover,.pics_del .btn_06:hover,.pics_add .btn_16:hover{background:url(//img.shejiben.com/my/popularize_center/qiandao_hover.png);color:#fff;}
+.pics_operate{padding: 20px;overflow: hidden;border-bottom: 1px solid #e5e5e5;}
+.operate_outBox{display:none;position:fixed;z-index:998;background:#fff;width:100%;height:76px;top:0;border-bottom:1px solid #e5e5e5;box-shadow:2px 2px 2px #eee;}
+.pics_operate_fiexd{position:fixed;z-index:999;background:#fff;width:1160px;top:0;border: none;}
+.pics_operate .pics_add{float:right;margin-right: -20px;width:290px;} 
+.pics_operate .pics_add span{float:left;margin-top: 11px;}
+.pics_operate .pics_add span em{cursor:pointer;}
+.pics_operate .pics_add .big{font-weight: bold;margin-right: 5px;}
+.pics_add {width:290px;}
+.pics_add input{float:left;margin-left:10px;}
+.pics_list{background:#fff;padding:20px 0px;overflow: hidden;}
+.pic_focus {width:275px;float:left;margin-left:20px;margin-bottom:20px;}
+.pic_focus input[type=text]{width:263px;border:1px solid #ddd;outline:none;color:#999;height:33px;padding-left:10px;border-top:0;}
+.pic_focus select{height:33px;width:275px;border:1px solid #ddd;outline:none;}
+.pic_focus textarea{height:80px;resize:none;padding:10px 10px;outline:none;width:253px;border:1px solid #e6e6e6;color:#999;border-top:0;}
+.pic_focus .pic_{position:relative;overflow: hidden;}
+.pic_focus .pic_ span.pic_click{width:22px;height:22px;position:absolute;left:0;z-index:100;top: 0;}
+/*编辑作品页面上传图片按钮*/
+.pics_add .uploadify{display:inline-block;float:left;background:url(//img.shejiben.com/my/popularize_center/small_img.png) -147px -349px;margin-left:10px;text-align:center;cursor:pointer;}
+.pics_add .uploadify:hover{background:url(//img.shejiben.com/my/popularize_center/qiandao_hover.png);}
+.pics_add .uploadify:hover .uploadifyButtonText{color:#fff;}
+.pics_add .uploadify .uploadifyButtonText{margin:0;line-height:36px;float:none;color:#dd4f50;font-size:14px;}
+.pic_focus .upTmpBox{width: 275px;height: 200px;display: block;background: #f2f2f2;}
+.pic_focus .upTmpBar{width: 275px;height: 0%;display: block;background: #ffd8d8;position:absolute;bottom:0;z-index:2}
+.pic_focus .upTmpText{width: 275px;height:200px;display:block;background:none;position:absolute;bottom:0;z-index:3;font-size:24px;text-align:center;line-height:200px;color:#333;}
+.pic_small .upTmpBox{width: 152px;height: 110px;display: block;background: #f2f2f2;}
+.pic_small .upTmpBar{width: 152px;height: 0%;display: block;background: #ffd8d8;position:absolute;bottom:0;z-index:2}
+.pic_small .upTmpText{width: 152px;height:110px;display:block;background:none;position:absolute;bottom:0;z-index:3;font-size:24px;text-align:center;line-height:110px;color:#333;}
+
+
+/*默认状态*/
+.pic_focus .pic_ span.pic_click{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -253px -261px;}
+.pic_focus .pic_ i{ height: 98%;z-index: 99;width: 98.9%;position: absolute;display:none; border:2px solid #dd4f50;}
+.pic_focus .pic_ div{display:none;position: absolute;bottom: 0;color: #fff;margin: 0px 10px;margin-bottom: 10px;z-index: 110;width: 120px;right: 10px;}
+.pic_focus .pic_ div a{color:#fff;}
+.pic_focus .pic_ div span{background:url(//img.shejiben.com/my/popularize_center/small_img.png);display:inline-block;width:12px;height:12px;margin-right:5px;margin-bottom: -2px;cursor:pointer;}
+.pic_focus .pic_ div span._01{background-position:-195px -320px;}
+.pic_focus .pic_ div span._02{background-position:-177px -320px;margin-left:40px;}
+.pic_focus .pic_ div span._03{background-position:-161px -320px;margin-left:20px;}
+.pic_focus .pic_  ._04 { width:100%; height:100%; background: #000; position:absolute; z-index:98; filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity:0.5;display:none;}
+/*鼠标滑过的状态*/
+.pic_focus .pic_:hover i {display:block;}
+.pic_focus .pic_:hover div{display:block;}
+.pic_focus .pic_:hover ._04 {display:block;}
+.pic_focus .pic_:hover .coverTags {display:none;}
+.pic_focus .pic_hover i{display:block;}
+.pic_focus .pic_hover div{display:block;}
+/*鼠标选择的状态*/
+.pic_focus ._pic_click span.pic_click{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -278px -262px;}
+.pic_focus ._pic_click i{display:block;}
+
+
+._index .pic_ span{display:none;}
+._index .pic_ i{display:block;bottom:0;height:30px;color:#fff;line-height:30px;padding-left:10px;border:0;background: #000;filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity:0.5;}
+/*设为封面后的效果*/
+.coverTags{display:block;height:30px;color:#fff;line-height:30px;padding-left:10px;border:0;background: #000;position: absolute;bottom: 0;left:0;width: 100%;filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity: 0.5; opacity:0.5;}
+.move_pic{padding: 30px;}
+.move_pic div label.up_{float: left;margin-right: 10px;color: #666;}
+.move_pic div.up_load{overflow: hidden;height: 37px;line-height: 37px;}
+.edit_prod_del .move_pic .select_box .select_input{width: 362px;color: #999;}
+.edit_prod_prom .move_pic .select_box .select_input{width: 362px;color: #999;}
+.move_pic .select_box{float: left;}
+.move_pic .sure_del{padding: 30px 60px 0px 60px;}
+.move_to{width:381px;height:34px;}
+.edit_prod_del .btne{margin: 0 auto;width:230px;margin-top:20px;overflow: hidden;}
+.edit_prod_del .btne input{float:left;margin:0 10px;font-family: "Microsoft YaHei","微软雅黑";}
+.edit_prod_prom .btne{margin: 0 auto;width:230px;margin-top:20px;overflow: hidden;}
+.edit_prod_prom .btne input{float:left;margin:0 10px;font-family: "Microsoft YaHei","微软雅黑";}
+/*图片批量管理 小图*/
+.pic_small {padding:20px 5px;}
+.pic_small .pic_focus .pic_ div{margin:0px;margin-bottom: 10px;}
+.pic_small .pic_focus .pic_ i{height:96%;width:97.8%;}
+.pic_small ._index .pic_ i{height:30px;width:97.8%;}
+.pic_focus .pic_ div span{margin-right:0px;margin-left:0px;}
+.pic_small .pic_focus .pic_ div span._02{margin-left:0px;}
+.pic_small .pic_focus .pic_ div span._03{margin-left:20px;}
+
+.pic_small .pic_focus{width:152px;height:110px;margin-left:15px;margin-bottom: 15px;}
+
+/*作品上传*/
+.product_upload{background:#fff;width:740px;float: left;margin-bottom: 50px;}
+.upload_info input ,textarea ,select{border:1px solid #ddd;outline:none;}
+.product_upload .tel{margin: 20px;border-bottom: 1px solid #eee;padding: 20px 0px;font-size: 14px;font-weight: bold;}
+.chioce_pic{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -191px -221px;width:69px;height:25px;color: #666;border-radius: 3px;}
+.upload_info {margin: 0px 90px;}
+.upload_info  label{color:#666;font-size: 14px;}
+.upload_info .prod_name {margin-bottom: 10px;}
+.upload_info .prod_name input{width:449px;height:32px;padding: 0px 10px;}
+.upload_info .prod_type{margin-bottom: 10px;overflow: hidden;line-height: 35px;}
+.upload_info .prod_type label{float: left;}
+.upload_info .prod_type .select_box{float: left;width: 105px;margin-right: 15px;}
+.upload_info .prod_type .select_box .select_input{width: 95px;}
+.upload_info .prod_type select{color:#999;width:111.8px;height:35px;margin-left: 0px;margin-right: 5px;padding-left: 5px;}
+.upload_info .prod_info{margin-bottom:10px;position:relative;}
+.upload_info .prod_info input{width:220px;height:32px;color:#999;margin-left: -3px;margin-right: 7px;padding: 0px 5px;}
+.upload_info .prod_info em{position: absolute;top: 10px;color: #666;}
+.upload_info .prod_info em._01{left: 270px;}
+.upload_info .prod_info em._02{right:30px;}
+.upload_info .prod_desc{margin-bottom:20px;}
+.upload_info .prod_desc label{position: absolute;}
+.upload_info .prod_desc textarea{width:450px;height:129px;margin-left: 70px;resize:none;padding: 10px 10px;}
+.upload_info .pict_upload{padding-bottom:20px; position: relative;}
+.upload_info .pict_upload .uploadify{border: 1px solid #ddd;line-height:25px;border-radius:3px;display: inline-block;margin: 0px;margin-left: -2px;}
+.upload_info .pict_upload .uploadifyButton{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -191px -219px;width:70px;height:25px;color: #666;border-radius: 3px;letter-spacing:0;font-weight:normal;padding:0;display:inline-block;}
+.upload_info .pict_upload div em{font-family: 'Arial';}
+.upload_info .pict_upload .chioces{color:#999;margin-left: 3px;}
+.upload_info .pict_upload .loding{position: relative;margin-top:12px;height: 30px;line-height: 30px;background: #f8f8f8;width: 472px;margin-left: 60px;color:#666;color:#999;border-radius:5px;}
+.upload_info .pict_upload div span.remove{display:inline-block;cursor: pointer;width:15px;height:15px;background:url(//img.shejiben.com/my/popularize_center/small_img.png) -248px -298px;float: right;margin-top: -7px;margin-right: -7px;position: absolute;z-index: 10;right: 0;}
+.upload_info .pict_upload div span.remove:hover{background-position:-266px -298px;}
+.upload_info .pict_upload span.file_bar {position:absolute;margin-left:20px;}
+.upload_info .pict_upload span.how_loding{background:#ffd8d8;color:#999;position: absolute;height: inherit;width:0%;border-radius: 5px;}
+.upload_info .orig_promise{color:#666;margin-bottom: 30px;}
+.upload_info .orig_promise input{width:15px;height:15px;margin-left:0px;vertical-align: middle;}
+.upload_info .orig_promise p{margin-left: 82px;margin-top: 5px;}
+.upload_info .product_btn{margin-left: 60px;margin-bottom: 50px;padding-bottom: 50px;}
+.upload_info .product_btn input{border:0;}
+.product_other{width: 242px;float: right;}
+.product_other em{color:#dd4f50;}
+.product_other div{background:#fff;margin-bottom:20px;color:#666;padding:18px;letter-spacing: 0.4px;}
+.product_other div label{font-size:14px;color:#333;}
+.product_other div p{margin-top:12px;line-height:24px;}
+.product_other .get_gold p{margin-top: 10px;}
+.product_other .upload_tpl p{line-height: 20px;}
+.product_other .sync p{line-height: 20px;}
+.product_other .sync input{width:15px;height:15px;vertical-align:middle;margin-right:4px;}
+.product_other .sync p.qq{color:#999;}
+.qq{background:none;display:block;width:auto;height:auto;margin-bottom:0;}
+.upload_product_tpl .cont .tpl_msg label{color:#DD4F50;}
+
+.product_upload .msg_no_flash{height: 36px;line-height: 36px;background: #fffdee;width: 700px;margin: 0 auto;text-indent: 10px;border: 1px #ffe9d0 solid;margin-bottom: 20px;font-size: 12px;color: #666;}
+.product_upload .msg_no_flash a{ color: #dd4f50;}
+.pict_upload .error_msg_no_flash{ position: absolute;top: 30px;left: 70px; color: #dd4f50; font-size: 12px;}
+/*作品管理*/
+.peson_product_manage{background:#fff;width: 782px;padding: 20px;margin-right: 0px;min-height: 691px;}
+.peson_product_manage .tal{font-size:14px;font-weight:bold;height: 48px;border-bottom: 1px solid #eee;}
+.peson_product_manage .tal label{margin-top: 15px;display: inline-block;float: left;}
+.peson_product_manage .tal .btne{float:right;width:auto;}
+.peson_product_manage .picts{margin-top:20px;}
+.peson_product_manage .picts .pict{width:248px;border:1px solid #eee;float:left;margin-right: 13px;margin-bottom:20px;background: #fcfcfc;position: relative;}
+.peson_product_manage .picts .pict img{margin:10px;}
+.peson_product_manage .picts .pict .pic_title{color:#333;padding:3px 10px 10px 10px;font-size: 14px;border-bottom:1px solid #eee;}
+.peson_product_manage .picts .pict .pic_title span{color:#999;font-size:13px;float:right;}
+.peson_product_manage .picts .pict .pic_edit{color:#999;height:30px;line-height:30px;}
+.peson_product_manage .picts .pict .pic_edit span{margin:0 5px 0 10px;cursor:pointer; float: left;}
+.peson_product_manage .picts .pict .pic_edit span:hover{color:#dd4f50;}
+.peson_product_manage .picts .pict .pic_edit span a{color:#999;}
+.peson_product_manage .picts .pict .pic_edit span a:hover{color:#dd4f50;}
+.peson_product_manage .picts .pict .pic_edit .del{display:none;float:right;padding-right:5px;}
+.peson_product_manage .picts .pict .edit{cursor: pointer;display:inline-block;width:27px;height:25px;background:url(//img.shejiben.com/my/popularize_center/small_img.png) -216px -317px;position: absolute;top: 4px;right: 4px;display:none;}
+.peson_product_manage .picts .hover {position:relative;}
+.peson_product_manage .picts .hover .edit{display:block;}
+.peson_product_manage .picts .hover .pic_edit .del{display:inline;}
+
+.peson_product_manage .picts .pict:hover{position:relative;}
+.peson_product_manage .picts .pict:hover .edit{display:block;}
+.peson_product_manage .picts .pict:hover .pic_edit .del{display:inline;}
+
+/* by carl 20150615 */
+.peson_product_manage .picts .pict .pict_link{position: relative;display: block;}
+.peson_product_manage .picts .pict .pict_pass_tag{position: absolute;background: url(//img.shejiben.com/global.png?20150605) no-repeat 0px -210px;left: 10px;top:10px;width: 65px;height: 23px;}
+.peson_product_manage .picts .pict .pict_respons_tag{position: absolute;background: url(//img.shejiben.com/global.png?20150605) no-repeat -69px -210px;left: 10px;top:10px;width: 65px;height: 23px;}
+.peson_product_manage .picts .pict .pict_passoff_tag{position: absolute;background: url(//img.shejiben.com/global.png?2015120102) no-repeat -154px -233px;left: 8px;top:10px;width: 111px;height: 23px;}
+
+/*作品、图集排序界面*/
+.peson_product_manage .picts_sort{margin-top:20px;}
+.peson_product_manage .picts_sort .pict{width:140px;height:140px;border:1px solid #eee;float:left;margin-right:13px;margin-bottom:13px;background: #fcfcfc;}
+.peson_product_manage .picts_sort .pict img{margin:10px 10px 0;width:120px;height:100px;}
+.peson_product_manage .picts_sort .pict .pic_title{color:#555;padding:3px 10px 0 10px;font-size:13px;line-height:24px;overflow:hidden;height:24px;}
+
+/*我的收藏*/
+.my_collect{}
+.my_collect .tal .btne{/*margin-right:-85px;*/width:auto;}
+.my_collect .tal{border-bottom:0;margin-top: 15px;margin-bottom: -20px;}
+.my_collect .manage_tab ul li{width:70px;margin-right: 20px;}
+.my_collect .manage_tab ul li a{display: block;width: 100%;height: 100%;}
+.my_collect .manage_tab ul li:hover a{font-weight: bold;color: #dd4f50;}
+.my_collect .manage_tab ul li.cur{font-weight: bold;color: #dd4f50;}
+.my_collect .manage_tab ul li.cur a{color: #dd4f50;}
+.my_collect .myCoGoList ul li{float:left; width: 250px;height:250px;margin:15px 10px 0 0;}
+.my_collect .myCoGoList ul li img{float:left; width: 250px;height:250px;}
+
+/*我的收藏  批量管理图片*/
+.my_collect_pic_manage{}
+.my_collect_pic_manage .production_info{margin:0px;padding:0px;height:70px;line-height:70px;}
+.my_collect_pic_manage .production_info label{margin-left: 20px;}
+.my_collect_pic_manage .production_info span{color:#999;margin-left: 10px;margin-right: 25px;}
+.my_collect_pic_manage .production_info em{color:#dd4f50;}
+
+/*上传图片到我的图集*/
+.upload_to_my_atlas {margin-top:30px;}
+.upload_to_my_atlas .production_info{margin-top:15px;padding:20px;overflow: hidden;
+    line-height: 35px;}
+.upload_to_my_atlas .title{font-weight:bold;font-size:14px;}
+.upload_to_my_atlas .production_info label.up_to{margin-bottom:0px;color:#666;float: left;margin-right: 10px;}
+.upload_to_my_atlas .production_info .select_box{float: left;}
+.upload_to_my_atlas .production_info .select_box .select_input{width: 245px;}
+.upload_to_my_atlas .production_info .uploadsel{width:260px;height:35px;}
+.md_select{cursor:pointer;width:260px;height:35px;border:1px solid #ddd;display:inline-block;line-height:35px;position:relative;}
+.md_select label{margin-left:10px;font-size:12px;color:#999;}
+.md_select span{background: url(//img.shejiben.com/my/popularize_center/small_img.png) -109px -432px;width: 10px;height: 7px;display: inline-block;position:absolute;right: 10px;top: 15px;}
+.md_options{position: absolute;margin-left: 76px;border: 1px solid #ddd;width: 260px;background:#fff;display:none;}
+.md_options ul li{height:30px;line-height:30px;padding-left:10px;color:#999;cursor:pointer;}
+.md_options ul li:hover{background:#f2f2f2;}
+
+.upload_to_my_atlas .pic_batch{min-height:400px;}
+.upload_to_my_atlas .pic_batch .my_atlas{width:282px;height:99px;margin:0 auto;margin-top: 150px;text-align: center;}
+.my_atlas .btn_click{width:126px;height:36px;float:none;margin-left: 75px;margin-bottom: 10px;font-size:12px;}
+.upload_to_my_atlas .pic_batch .my_atlas p{color:#999;}
+.my_atlas .uploadify{width:126px;height:36px;display:inline-block;background:url(//img.shejiben.com/my/popularize_center/small_img.png) 0px -260px;text-align:center;cursor:pointer;}
+.my_atlas .uploadify object{display:none;}
+.my_atlas .uploadify:hover{background:url(//img.shejiben.com/my/popularize_center/small_img.png) no-repeat -126px -260px;}
+.my_atlas .uploadify .uploadifyButtonText{margin:0;line-height:36px;float:none;color:#fff;font-size:13px;}
+
+/*图集详情*/
+.this_position{color:#666;}
+.atlas_center{width:735px;background:#fff;padding-top: 20px;margin-top: 20px;margin-bottom: 50px;padding-bottom: 50px;float:left;}
+.atlas_center .altas_edit{height: 40px;background: #fffdee;border: 1px solid #ffe9d1;line-height: 40px;margin: 10px;}
+.atlas_center .altas_edit .edit_altas{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -250px -317px;display:inline-block;width:15px;height:15px;margin-left: 18px;margin-right: 3px;margin-bottom: -2px;}
+.atlas_center .altas_edit .edit_bath{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -269px -317px;display:inline-block;width:15px;height:15px;margin-left: 10px;margin-right: 3px;margin-bottom: -2px;}
+.atlas_center .altas_edit .del_altas{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -285px -317px;display:inline-block;width:15px;height:15px;margin-right: 3px;margin-bottom: -2px;}
+.atlas_center .altas_info{margin: 10px 10px 0px 10px;}
+.atlas_center .altas_info .sea_altas{overflow: hidden;margin-bottom: 25px;margin-bottom: 20px;margin-top: 25px;}
+.atlas_center .altas_info .sea_altas h2{float:left;font-family: "Microsoft YaHei";font-size: 20px;font-weight: normal;}
+.atlas_center .altas_info .sea_altas span.check{float:right;margin-top: 10px;color: #999;}
+.atlas_center .altas_info .sea_altas span.check .sea{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -253px -340px;display: inline-block;width: 16px;height: 11px;margin-bottom: -2px;}
+.atlas_center .altas_info .sea_altas span.check .pic{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -277px -340px;display: inline-block;width: 16px;height: 11px;margin-left:10px;margin-bottom: -2px;}
+.atlas_center .altas_info .altas_collected {overflow:hidden;border-bottom: 1px solid #ddd;padding-bottom: 10px;}
+.atlas_center .altas_info .altas_collected  span{color:#666;}
+.atlas_center .altas_info .altas_collected ._info img{float:left;}
+.atlas_center .altas_info .altas_collected ._info .noth_or{float:left;margin-top: 2px;}
+.atlas_center .altas_info .altas_collected ._info .noth_or p{margin-bottom: 15px;padding-left: 15px;color: #666;}
+.atlas_center .altas_info .altas_collected ._info .noth_or p a{color:#4c9215;margin-left: 5px;}
+.atlas_center .altas_info .altas_collected ._info ._collected{float:right;margin-top: 20px;}
+._info ._collected input{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -143px -392px;width:83px;height:30px;color:#fff;font-size:14px;border:0;font-weight: bold;outline:none;}
+.atlas_center .altas_all{margin:10px;}
+.altas_all .change_big_small{overflow: hidden;}
+.altas_all .change_big_small .change_border{display:inline-block;width:56px;height:23px;text-align: center;line-height: 23px;color: #666;float: right;}
+.change_big_small .pic_big{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -256px -363px;display:inline-block;width:10px;height:10px;margin-right: 5px;}
+.change_big_small .pic_small{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -280px -363px;display:inline-block;width:10px;height:10px;margin-right: 5px;padding:0;}
+.altas_all .change_big_small span.cur{border:1px solid #ddd;}
+.altas_all .pic_all {overflow: hidden;margin-top: 20px;}
+.altas_all .pic_all div{float:left;margin-right:12px;margin-bottom:10px;}
+.atlas_share{width:237px;float:right;margin-right: 10px;}
+.atlas_share .gz{margin-top:20px;}
+.atlas_share .toptenz{margin-top:10px;background:#fff;}
+.atlas_share .toptenz .title h1{color: #666;font-size: 14px;font-weight: bold;margin: 10px 10px;border-bottom: 1px dashed #999;padding: 10px 0;}
+.atlas_share .toptenz .toptenz_pesonl{margin:10px 10px 20px 10px;padding-bottom: 30px;}
+.atlas_share .toptenz .toptenz_pesonl ul li {width:100%;height:26px;}
+.atlas_share .toptenz .toptenz_pesonl ul li span{height: 25px;line-height: 25px;width: auto;float: left;}
+.atlas_share .toptenz .toptenz_pesonl ul li span._01{color:#666;font-size:12px;margin-right:5px;font-weight:bold;font-family: "Microsoft YaHei","微软雅黑";}
+.atlas_share .toptenz .toptenz_pesonl ul li span._02{color:#3d8901;margin-left: 5px;}
+.atlas_share .toptenz .toptenz_pesonl ul li span._03{color:#666;float:right;}
+.atlas_share .toptenz .toptenz_pesonl ul li img{float:left;}
+
+/*收藏图片*/
+.collect_pictures {padding-top:0px;}
+.collect_pictures .atlas_center{padding-top: 0px;}
+.collect_pictures .cont_1 {overflow:hidden;margin-bottom:20px;}
+.collect_pictures .cont_1 .pic{float:left;}
+.collect_pictures .cont_1 .select_altas{float:right;}
+.collect_pictures .cont_1 .select_altas .my_alt{width: 240px;height: 36px;border: 1px solid #ddd;line-height: 36px;padding: 0 10px;color: #999;}
+.collect_pictures .cont_1 .select_altas .my_alt label{float: left;}
+.collect_pictures .cont_1 .select_altas .drap {background:url(//img.shejiben.com/my/popularize_center/small_img.png) -255px -382px;width:10px;height:7px;display:inline-block;float:right;margin-top: 15px;}
+.collect_pictures .cont_1 .select_altas .sele_{display: block;position: absolute;border: 1px solid #ddd;width: 260px;line-height: 30px;background: #fff;color: #999;}
+.collect_pictures .cont_1 .select_altas .sele_ ul{height: 90px;overflow-x: auto;}
+.collect_pictures .cont_1 .select_altas .sele_ ul li{padding:0px 10px;cursor:pointer;}
+.collect_pictures .cont_1 .select_altas .sele_ ul li:hover{background:#f2f2f2;}
+.collect_pictures .cont_1 .select_altas .sele_ ul li.cur{background:#f2f2f2;}
+.collect_pictures .cont_1 .select_altas .sele_ .bulid_new{margin-left: 10px;margin-bottom: 15px;}
+.collect_pictures .cont_1 .select_altas .sele_ .bulid_new input{outline:none;}
+.collect_pictures .cont_1 .select_altas .sele_ .bulid_new input.add_name{height:30px;border-right: 0;border: 1px solid #ddd;float: left;line-height: 50%;}
+.collect_pictures .cont_1 .select_altas .sele_ .bulid_new input.add{width:60px;height:33px;border: 1px solid #ddd;background: #dd4f50;color: #fff;vertical-align: middle;}
+.collect_pictures .cont_1 .this_desc{margin-top:10px;}
+.collect_pictures .cont_1 .this_desc textarea{width:240px;height:106px;padding:10px;border: 1px solid #ddd;}
+.collect_pictures .cont_2 {overflow:hidden;}
+.collect_pictures .cont_2 .sync {overflow: hidden;height: 30px;line-height: 30px;float:left;}
+.collect_pictures .cont_2 .sync label{color:#666;}
+.collect_pictures .cont_2 .sync span{background:url(//img.shejiben.com/my/popularize_center/small_img.png);width:25px;height:25px;display:inline-block;margin-left:10px;margin-bottom: -8px;cursor:pointer;}
+.collect_pictures .cont_2 .sync span.wb{background-position:-33px -426px;}
+.collect_pictures .cont_2 .sync span.wb:hover{background-position:-262px -394px;}
+.collect_pictures .cont_2 .sync span.qq{background-position:-2px -426px;}
+.collect_pictures .cont_2 .sync span.qq:hover{background-position:-231px -394px;}
+.collect_pictures .cont_2 .btn{float:right;}
+.collect_pictures .cont_2 .btn input{font-family: "Microsoft YaHei","微软雅黑";letter-spacing: 5px;}
+.collect_pictures .cont{margin:20px 40px;}
+/*消息中心  私信*/
+.private_cont{background: #fff;width: 820px;float: right;margin-top: 0;}
+.private_cont ._cont{margin:40px 20px;}
+.private_cont ._cont .top {padding-bottom: 20px;border-bottom: 1px solid #eee;}
+.private_cont ._cont .top label{font-size:14px;font-weight:bold;}
+.private_cont ._cont .top .btn{width:230px;float:right;text-align:right;margin-top: -20px;}
+.private_cont ._cont .top .btn input{margin-left:20px;}
+.private_cont ._cont .letter_list {}
+.private_cont ._cont .letter_list ._list{padding: 13.5px 20px;overflow: hidden;border-bottom: 1px dotted #ddd;position: relative;}
+.private_cont ._cont .letter_list ._list:hover{background:#f8f8f8;cursor:pointer;}
+.private_cont ._cont .letter_list ._list img{float:left;}
+.private_cont ._cont .letter_list ._list dl{float: left;line-height: 26px;font-size: 14px;margin-left: 10px;color: #666;}
+.private_cont ._cont .letter_list ._list div{overflow: hidden;position: absolute;right: 20px;overflow: hidden;}
+.private_cont ._cont .letter_list ._list dl dd.name{color:#999;}
+.letter_list ._list .edit_ p{text-align:right;}
+.letter_list ._list .edit_ p.time {color:#999;}
+.letter_list ._list .edit_ p.time span{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -103px -432px;; display:inline-block;width:13px;height:6px;}
+.letter_list ._list .edit_ p.del{width: 80px;height: 40px;text-align: left;display:none;background:#fff;border: 1px solid #eee;color:#666;margin-top: 2px}
+.letter_list ._list .edit_ p.del span{display: inline-block;width: 60px;height: 30px;margin: 5px;padding-left: 10px;line-height: 30px;}
+.letter_list ._list .edit_ p.del span:hover{background: #f2f2f2;color:#dd4f50;}
+/* 给好友发私信*/
+.write .top{margin: 20px;border-bottom: 1px solid #eee;padding-bottom: 20px;}
+.write .top span.this{font-size:14px;font-weight:bold;}
+.write .top span.return{float:right;color:#666;}
+.write .top span.return:hover{color:#dd4f50;cursor:pointer;}
+.write .private_to{margin: 0 20px;position: relative;padding-bottom: 20px;border-bottom: 1px dotted #eee;}
+.write .private_to p{margin:20px 0px;}
+.write .private_to textarea{width:770px;height:80px;padding:5px;border: 1px solid #e6e6e6;}
+.write .private_to p{color:#999;}
+.write .private_to .send_to{font-size:14px;color:#666;}
+.write .private_to .send_to .sele_click{cursor:pointer;}
+.write .private_to .send_to em{color:#dd4f50;}
+.write .private_to .send_to .select{display:inline-block;height:10px;width:10px;background:url(//img.shejiben.com/my/popularize_center/small_img.png) -150px -428px; }
+.write .private_to .send{position:absolute;right:0;bottom: 20px;right: -3px;}
+.private_to .select_friends{position:absolute;width:260px;height:298px;background:#fff;border:1px solid #eee;z-index:1000;top: 18px;display:none;}
+.private_to .select_friends .seach{margin:10px;}
+.private_to .select_friends .seach input{width:230px;height:30px;padding-left:5px;border:1px solid #eee;}
+.private_to .select_friends ul{overflow: hidden;border-bottom: 1px solid #eee;}
+.private_to .select_friends ul li{overflow: hidden;height: 38px;line-height: 28px;padding: 5px 10px;}
+.private_to .select_friends ul li:hover{background:#FFFDEE;}
+.private_to .select_friends ul li img{float: left;margin-right: 10px;}
+.private_to .select_friends ul li a{font-size: 14px;color: #666;}
+.private_to .select_friends ul li a:hover{color:#dd4f50;}
+.btn_close{float: right;margin: 10px;}
+.btn_close input{width:65px;height:30px;border:0;background:url(//img.shejiben.com/my/popularize_center/small_img.png) -2px -456px;color:#fff;}
+.btn_close input:hover{background-position:-72px -456px;}
+.real_time_msg {margin:20px;}
+.real_time_msg .counterpart{overflow:hidden;}
+.real_time_msg .msg{min-width: 190px;max-width: 410px;min-height: 45px;padding: 20px;color: #666;position:relative;border-radius: 3px;}
+.real_time_msg .msg .msg_left{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -132px -432px;width: 8px;height: 15px;position: absolute;left: -8px;}
+.real_time_msg .msg .msg_right{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -120px -432px;width: 8px;height: 15px;position: absolute;right: -8px;}
+.real_time_msg .msg .time{text-align: right;margin-top: 20px;color:#999;}
+.real_time_msg .counterpart img{float:left;}
+.real_time_msg .counterpart .msg{background:#f2f2f2;margin-left: 20px;float:left;}
+.real_time_msg .counterpart .msg .clo{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -287px -380px;width:15px;height:15px;display:none;position: absolute;left: 10px;top: 5px;}
+.real_time_msg .myself {margin-top: 20px;margin-bottom:20px;overflow: hidden;}
+.real_time_msg .myself img{float:right;}
+.real_time_msg .myself .msg{background:#ffefef;float:right;margin-right: 20px;}
+.real_time_msg .myself .msg .clo{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -287px -380px;width:15px;height:15px;display:none;position: absolute;right: 5px;top: 5px;}
+.real_time_msg .msg .content_{line-height:20px;}
+.real_time_msg .msg:hover .clo{display:block;cursor:pointer;}
+.real_time_msg .msg:hover .content_{color:#999;}
+
+
+/*消息 提醒中心*/
+.massage .top{font-size:14px;font-weight:bold;margin:20px;padding-bottom: 20px;border-bottom: 1px solid #eee;}
+.massage .mass_list{margin:0px 20px 20px 20px;}
+.massage .mass_list label{font-size:14px;font-family:'Arial';}
+.massage .mass_list div{color:#666;border-bottom: 1px dashed #ddd;padding: 12px 0px 20px 0px;}
+.massage .mass_list div em{color:#dd4f50;}
+.massage  .mass_list div span{margin-bottom: -3px;}
+.massage .tx span{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -167px -425px;display:inline-block;width:20px;height:20px;}
+.massage .tw span{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -186px -425px;display:inline-block;width:20px;height:20px;}
+.massage .pl span{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -206px -425px;display:inline-block;width:20px;height:20px;}
+.massage .at span{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -228px -425px;display:inline-block;width:20px;height:20px;}
+.massage .za span{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -268px -425px;display:inline-block;width:20px;height:20px;}
+.massage .yq span{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -169px -445px;display:inline-block;width:20px;height:20px;}
+.massage div.gz span{background:url(//img.shejiben.com/my/popularize_center/small_img.png) -148px -445px;display:inline-block;width:20px;height:20px;margin-bottom: -5px;}
+
+/*消息详情*/
+.system_msg_info {margin: 0 20px;padding-bottom: 80px;}
+.system_msg_info .msg_title{color: #999;padding-bottom: 20px;border-bottom: 1px #eee dashed;margin-bottom: 20px;}
+.system_msg_info .msg_title p.title{font-size: 14px;color: #333333;margin-bottom: 15px;}
+.system_msg_info .cont_info{color: #666;}
+.system_msg_info .cont_info div{line-height: 24px;margin-top: 15px;}
+
+/* 我收到的预约*/
+.my_get_appointment .assign_stage .account_balance a{background: url("//img.shejiben.com/my/popularize_center/small_img.png") no-repeat -216px -76px;width: 82px;height: 27px;line-height: 25px;text-indent: 30px;margin-right: 10px;display: block;float: left;}
+
+/* 博文分类管理*/
+.publish_type .tab span{color: #999;font-size: 12px;float: right;font-weight: normal;}
+.publish_type .publish_content .add_type{margin-top: 30px;width: 100%;}
+.publish_type .publish_content .add_type label{font-size: 12px;color: #666;float: left;margin-top: 10px;}
+.publish_type .publish_content .add_type input[type=text]{color:#666;text-align:left;width: 100px;height: 30px;line-height:50%;border: 1px solid #eee;float: left;display: inline-block;margin-right: 10px;}
+.publish_type .publish_content .add_type input.btn_sub{background: url("//img.shejiben.com/my/popularize_center/small_img.png") -2px -456px;float:left;color: #fff;width: 65px;height: 30px;font-size: 12px;line-height: 30px;}
+.publish_type .publish_content .add_type input.btn_sub:hover{background-position: -72px -456px;}
+.publish_type .publish_content .publish_table {width: 520px;}
+.publish_type .publish_content .publish_table div.pub_tab{margin-top: 30px;background: #FCFCFC;height: 35px;color: #666;font-size: 12px;line-height: 35px;}
+.publish_type .publish_content .publish_table .pub_tab span{width: 33%;display: inline-block;text-align: center;}
+.publish_type .publish_content .publish_table .pub_nubm {height: 60px;line-height: 60px;border-bottom: 1px #ddd dashed;color: #333;font-size: 12px;}
+.publish_type .publish_content .publish_table .pub_nubm a{color: #666;margin:0 5px;padding-right:10px;}
+.publish_type .publish_content .publish_table .pub_nubm span{width: 33%;display: inline-block;text-align: center;}
+.publish_type .tpl{color: #999;font-size: 12px;margin-top: 20px;}
+
+/*接单大厅 分页重置*/
+.page{margin-top:20px;margin-top: 42px;margin-bottom: 38px;}
+.page_num{background:#fff;height:30px;font-family: Arial;}
+.page_num a, .more_page_num a{padding:8px 12px;border-radius:5px;color:#686868;border:none;margin-right:5px;}
+.page_num .on{background:#ce1d23;color:#fff;}
+.page_num a:hover{background:#f2f2f2;}
+.page_num .on:hover{background:#e94c3d;color:#fff;}
+.page_num .next{background:none;color:#666;}
+
+
+.sq_dialog .sq_cont{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+/*******个人中心收藏案例*******/
+/***kiki添加于20151229***/
+.case_list_box{width: 783px;overflow: hidden;}
+.case_list_box .my_case_list{width: 800px;}
+.case_list_box .my_case_list li{float: left;margin: 20px 13px 0 0;border:solid 1px #eee;background: #fcfcfc;width: 250px;position: relative;}
+.case_list_box .my_case_list .case_detail{padding: 10px 10px 0;width: 230px;}
+.case_list_box .my_case_list .case_detail .case_name{color: #333;font-size: 14px;height: 35px;line-height: 35px; max-width: 230px;display: block;overflow:hidden;white-space: nowrap;text-overflow:ellipsis;}
+.case_list_box .my_case_list .case_detail .case_name:hover{color: #dd4f50;}
+.case_list_box .my_case_list .designer_det{border-top:solid 1px #eee;display: block;height: 42px;line-height: 42px;}
+.case_list_box .my_case_list .designer_det img{float: left;border-radius: 11px;margin: 10px;}
+.case_list_box .my_case_list .designer_det span{color: #333;}
+.case_list_box .my_case_list .designer_det:hover span{color: #dd4f50;}
+.case_list_box .del_icon{width: 25px;height: 25px;background:url("//img.shejiben.com/sjs/designer_icon.png?201616")  -15px -269px;position: absolute;top: 20px;right: 20px;display: none;cursor: pointer;}
+.case_list_box .my_case_list li:hover .del_icon{display: block;}

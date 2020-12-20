@@ -1,0 +1,14 @@
+.project_msg{width: 725px;float: left;}
+._msg_info{background:#fff;width: 741px;overflow: hidden;font-family: Arial;}
+.proj_name{line-height: 30px;float: left;}
+._msg_info .apply_for{float: right;width: auto;margin-top: 20px;}
+._msg_info .detail{float:right;padding:0px 40px;text-align: center;line-height: 33px;height: 33px;background: #dd4f50;color: #fff;border-radius: 5px; text-decoration: none;font-family: 'Î¢ÈíÑÅºÚ';font-size: 14px;margin-top: 10px;}
+._msg_info  .apply_end{float:right;}
+._msg_info  em{font-size:12px;padding-right:5px;}
+.proj_massages {margin: 5px 10px 10px 10px;overflow: hidden;border-bottom: 1px dotted #EDECED;padding-bottom: 10px;}
+.proj_massages ._massa{color: #666;font-size: 14px;float: left;line-height: 33px;}
+.proj_massages ._massa label{color: #333;}
+.proj_massages  ._end{float:right;width: 91px;height: 34px;border: 1px solid #e8e8e8;text-align: center;line-height: 34px;margin-top: 15px;cursor: pointer;border-radius: 4px;background: #eee;}
+.proj_devise{color:#666;font-size: 14px;margin: 0 30px;padding-bottom: 200px;}
+.prod_adver{float:right;}
+.privit_{width: 239px;height: 153px;line-height: 153px;background: #ddd;text-align: center;margin-top: 20px;font-size: 14px;color: #333;font-family: 'microsoft yahei';}

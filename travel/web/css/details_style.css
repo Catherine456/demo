@@ -1,0 +1,282 @@
+.item
+{
+	
+	width:200px;
+}
+
+.item img
+{
+	width: 260px;
+
+margin: 10px;
+}
+
+.item h4
+{
+	
+	font-size: 15px;
+
+margin-left: 10px;
+
+margin-bottom: 10px;
+}
+.recommend .title
+{
+	text-align: center;
+
+color: #d86e28;
+}
+
+.recommend
+{
+	width: 300px;
+
+margin-top: 20px;
+
+padding: 10px;
+
+background: #fcf4ee;
+	
+}
+
+.giver {
+	overflow: auto;
+}
+
+.giver img {
+	width: 40px;
+
+height: 40px;
+float: left;
+}
+
+.giver div {
+	float: left;
+    margin-left: 10px;
+    color: #7c7c7c;
+}
+
+.giver div p {
+	
+}
+
+.content {
+	width: 270px;
+
+word-break: break-all;
+
+margin: 10px 3px 30px 3px;
+}
+
+.banner {
+	background: #3d342a;
+	height: 100px;
+}
+
+.bigtitle {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+	background: url(../images/banner.jpg);
+	padding: 15px 0px;
+	color: white;
+}
+
+.rightdetail>p {
+	margin: 20px 0px 0px 0px;
+	border-bottom: 1px solid #b5a3a3;
+	padding-bottom: 4px;
+	color: #6b5c5c;
+}
+
+.contain {
+	background: #e8e8e4;
+	padding: 40px;
+	overflow: auto;
+}
+
+.surface {
+	float: left;
+}
+
+.surface img {
+	width: 300px;
+}
+
+.rightdetail {
+	float: left;
+	width: 430px;
+	background: white;
+	margin-left: 20px;
+}
+
+.rightcontain {
+	float: right;
+	width: 300px;
+}
+
+.leftcontain {
+	float: left;
+	width: 850px;
+}
+
+.detail {
+	overflow: auto;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	background: white;
+	padding: 20px;
+}
+
+.tags {
+	
+}
+
+.tag {
+	display: inline-block;
+	border: 2px solid #9d7047;
+	padding: 2px 3px 2px 3px;
+	margin: 2px;
+	font-size: 16px;
+	border-radius: 5px;
+	color: #8e6c6c;
+}
+
+.tag h4 {
+	
+}
+
+.tag p {
+	display: inline-block;
+}
+
+.detail>p {
+	
+}
+
+.praise {
+	margin: 20px;
+	display: inline-block;
+	border: 2px solid #ecebeb;
+	border-radius: 3px;
+	float: left;
+	color: #696161;
+}
+
+.picon {
+	width: 40px;
+	background: url(../images/like.jpg) no-repeat 5px;
+	height: 40px;
+}
+
+.praise p {
+	text-align: center;
+}
+
+.star {
+	margin: 20px;
+	display: inline-block;
+	border: 2px solid #ecebeb;
+	border-radius: 3px;
+}
+
+.sicon {
+	width: 40px;
+	background: url(../images/star.jpg) no-repeat 4px;
+	height: 40px;
+}
+
+.pictures {
+	margin: 46px;
+	padding: 20px;
+	background: white;
+	width: 800px;
+}
+
+.icons {
+	overflow: auto;
+	width: 200px;
+}
+
+.panorama {
+	padding-left: 20px;
+}
+
+.panorama input {
+	height: 40px;
+	border: 0px;
+	background: #e66f0f;
+	color: white;
+	font-size: 20px;
+	padding: 0px 20px 0 20px;
+}
+
+.onepic {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.designer {
+background: #dfba58;
+
+border: 2px solid #e2d5a3;
+
+padding-bottom: 10px;
+}
+
+.desdetail
+{
+	
+	text-align: center;
+padding: 20px;
+}
+
+.desdetail img
+{
+	width: 70px;
+
+height: 70px;
+}
+.desdetail p
+{
+	color: #5a0707;
+    margin: 5px;
+}
+
+.visitbutton
+{
+	height: 40px;
+}
+.visitbutton input
+{
+	color: #756b5b;
+	height: 40px;
+
+
+margin-left: 85px;
+}
+
+.comments {
+background: #fcf4ee;
+
+padding: 12px;
+
+margin-top: 40px;
+}
+
+.comments input[type="submit"] {
+	margin: 4px;
+	border: 0px;
+	background: #e66f0f;
+	color: white;
+	padding: 6px 20px;
+	font-size: 15px;
+}
+
+.inputtext {
+	
+}
+
+.existcomment {
+	
+}
